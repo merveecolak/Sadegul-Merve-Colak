@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+}
+
+body {background-image:url(resim2.jpeg);} 
+#kapsayıcı{
+    display: flex;
+    justify-content:space-between;
+}
+#Sayfa{
+    display: flex;
+    justify-content:space-between;
+    width: 800px;
+    font-size: 12px;
+    font-family:sans-serif;
+    list-style-type: none;
+    margin-top: 14px;
+    text-align: center;
+    height: 30px;
+    margin-right: 25px;   
+}
+li a{
+    text-decoration: none;
+    color: white;
+    
+}
+#html,#boostrap,#javascript,#jquery,#hakkımızda,#iletisim{
+    display: none;
+}
+    
+h3{
+    
+    background-color:tomato ;
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-top:5px;
+    
+}
+h2{   
+    color: white;
+    margin-top: 5px;    
+}
+p{
+    margin-top: 5px;
+    color: white;
+}
+div{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* --------------------------------css----------------------------- */
+
+.container{
+    display:flex;
+    
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+.box{
+     margin-top: 20px;    
+     height: 400px;
+     width: 550px;
+     background-color:slategray;
+}
+
+.container1{
+    display: flex;
+}
+.container{
+    display: flex;
+}
+
