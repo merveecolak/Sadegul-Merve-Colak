@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#Kapsayıcı{
+    display: flex;
+    justify-content:space-around;
+}
+#baslik{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 50px;
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color:antiquewhite;
+    text-decoration: none;
+    
+}
+#salonlar ul{
+    display: flex;
+    
+    width: 800px;
+    justify-content: space-around;
+    height: 50px;
+    padding: 1px;
+    margin: 15px;
+    font-size: 18px;
+    text-align: center;
+    align-items: flex-end;  
+    list-style-type: none;
+}
+#salonlar ul li a{
+    text-decoration: none;
+    color: rgb(230, 220, 207);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Arama{
+   margin-top: 50px;
+}
+#sliderContainer{
+    text-align: center;
+}
+.slider1{
+    display: none;
+    
+}
+
+#prevSlide,#nextSlide{
+    cursor: pointer;
+    position: absolute;
+    color:white;
+    top:80px;
+    padding-top: 9%;
+    font-weight: bold;
+    font-size:20px;
+    transition: 0.5s ease;
+    height: 60.9%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: 25.2%;
+    margin-right: 25.2%;
+    
+}
+#prevSlide{
+    left: 0px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left:15px;
+    padding-right:10px;
+    background-color:rgb(20, 20, 20);
+}
+#nextSlide{
+    right: 0px;
+    border-radius: 0px 5px 5px 0px;
+    padding-left:15px;
+    padding-right:10px;
+    background-color: rgb(20, 20, 20);
+}
+#prevSlide :hover, #nextSlide :hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#kutular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 1000px;
+    margin-left: 200px;
+    
+    
+}
+.kutum{
+    background-color:rgba(12, 11, 11, 0.5);
+    margin: 5px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 300px;
+    height: 500px;
+}
+
+
+#footer{
+    display: flex;
+    justify-content:space-around;
+  
+}
+#footer ul{
+    justify-content:space-around;
+    display: flex;
+    font-size: 18px;
+    text-align:center;
+    height:30px;
+    width: 600px;
+    list-style-type: none;
+
+    
+}
+#footer ul a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+
+}
+.baslık{
+   
+    background-color: brown;
+    width: 300px;
+    height:20px ;  
+    text-align: center;
+}
+.resim1,.resim2,.resim3,.resim4,.resim5,.resim6,.resim7,.resim8,.resim9,.resim10{  
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 300px;
+    display: none;
+}
+.box{
+    background-color: aqua;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    margin-top: 40px;  
+    margin-bottom: 50px;
+    
+}
+
