@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* sdfsdafa */
+}
+
+#navKapsayıcı{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+#navKapsayıcı a{
+    
+    text-decoration: none;
+    color:blueviolet;
+}
+#a{
+    
+    color: white;
+    height: 30px;
+    width: 140px;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    
+}
+#salon ul{
+    height: 35px;
+    width: 650px;
+    margin: 2px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+#salon ul li a{
+    text-decoration: none;
+    color:rebeccapurple;
+}
+#iletisim{
+   
+    font-size: 18px;
+    text-align:center;
+    margin: 3px;
+    padding: 13px;
+    height:30px;
+    width: 140px;
+    color: white;
+}
+/* navbitişi
+--------------------------------------------------- */
+/* headerbaşlangıcı
+--------------------------------------------------- */
+
+header{
+    display: flex;
+    justify-content: center;
+}
+#sliderContainer{
+    display: flex;
+    position: relative;
+    
+ }
+.slider1{
+    display: none;
+    
+}
+
+#prevSlide,#nextSlide{
+    cursor: pointer;
+    position: absolute;
+    padding-top: 15% ;
+    padding-bottom: 15px ;
+    font-weight:bold ;
+    font-size: 20px;
+    height: 93%;
+    transition: 0.5s ease;
+
+}
+#prevSlide :hover, #nextSlide :hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+#prevSlide{
+    left: 0px;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nextSlide{
+    right: 0px;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.kutu {
+    height: 200px;
+    width: 1500px;
+    border: 1px solid black;
+    flex-wrap:nowrap;
+}
+#kutular{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    height: 100%;
+}
+
+#kutularim{
+    display: flex;
+    flex-wrap: wrap;
+}
+.kutum{
+    background-color: aqua;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+/* footer balangıcı
+--------------------------------------------------- */
+
+#footer{
+    display: flex;
+    justify-content:space-around;
+  
+}
+#footer ul{
+    display: flex;
+    font-size: 18px;
+    text-align:center;
+    height:30px;
+    width: 400px;
+    color: white;
+}
