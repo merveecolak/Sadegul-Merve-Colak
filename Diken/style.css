@@ -1,0 +1,7 @@
+#ilk:hover{
+ background-color: black !important;
+ color: white !important;
+}
+#ilk:hover a{
+    color: white !important;
+   }
