@@ -5,3 +5,44 @@
 #ilk:hover a{
     color: white !important;
    }
+
+
+
+
+   <nav>
+   <div class="nav-content bg-white mt-2">
+       <ul class="d-flex">
+           <li><a href="">ROTA</a></li>
+           <li><a href="">9 SORUDA</a></li>
+           <li><a href=""> DİKEN ÖZEL</a></li>
+           <li><a href="">GÜNÜN 11'I</a></li>
+           <li><a href="">DİKENLİK</a></li>
+           <li><a href="">AKŞAM POSTASI</a></li>
+           <li><a href="">VPN HABER</a></li>
+           <li><a href="">ENGLISH</a></li>
+       </ul>
+   </div>
+</nav>
+<header>
+   <div class="container m-0 p-0">
+       <div class="header-img">
+           <img src="~/img/topbenner.png" alt="">
+       </div>
+   </div>
+</header>
+<nav>
+   <div class="nav-content bg-white">
+       <ul class="d-flex mb-0">
+           <li><a href="">VİTRİN</a></li>
+           <li><a href="">AKTÜEL</a></li>
+           <li><a href="">EKONOMİ</a></li>
+           <li><a href="">ANALİZ</a></li>
+           <li><a href="">DÜNYA</a></li>
+           <li><a href="">MEDYA</a></li>
+           <li><a href="">KEYİF</a></li>
+           <li><a href="">AGORA</a></li>
+           <li><a href="">SANAT</a></li>
+           <li><a href="">SÜRDÜRÜLEBİRLİK</a></li>
+       </ul>
+   </div>
+</nav>
