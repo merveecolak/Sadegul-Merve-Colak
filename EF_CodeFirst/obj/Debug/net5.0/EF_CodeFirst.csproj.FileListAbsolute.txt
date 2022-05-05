@@ -1,11 +1,3 @@
-C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.csproj.AssemblyReference.cache
-C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.AssemblyInfoInputs.cache
-C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.AssemblyInfo.cs
-C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.csproj.CoreCompileInputs.cache
-C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.RazorAssemblyInfo.cache
-C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.RazorAssemblyInfo.cs
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\bin\Debug\net5.0\appsettings.json
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\bin\Debug\net5.0\EF_CodeFirst.exe
@@ -49,6 +41,14 @@ C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\bin\Debug\net5.0\runtimes
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.csproj.AssemblyReference.cache
+C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.AssemblyInfo.cs
+C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.RazorAssemblyInfo.cache
+C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\EF_CodeFirst.RazorAssemblyInfo.cs
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\staticwebassets\EF_CodeFirst.StaticWebAssets.Manifest.cache
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\staticwebassets\EF_CodeFirst.StaticWebAssets.xml
 C:\Users\Casper\source\repos\Web_7\Week11\EF_CodeFirst\obj\Debug\net5.0\scopedcss\bundle\EF_CodeFirst.styles.css

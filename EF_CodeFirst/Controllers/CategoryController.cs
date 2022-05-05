@@ -2,28 +2,26 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EF_CodeFirst.Models.Context;
+using EF_CodeFirst.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Models.Context;
-using Models.Entities;
-using EF_CodeFirst.Models;
-using Microsoft.EntityFrameworkCore;
 
-namespace Controllers
+namespace EF_CodeFirst.Controllers
 {
-    public class CategoryController
+    public class CategoryController : Controller
     {
-        private readonly LibraryContext _context;
+         private readonly LibraryContext _context;
         public CategoryController(LibraryContext context)
         {
             _context=context;
         }
 
         public IActionResult Index()
-        {          
+        {
             var categories = _context.Categories
                 .Where(x => x.IsDeleted==false)
                 .ToList();
-               return View(categories);        
+            return View(categories);
         }
         public IActionResult GetDeletedCategories()
         {

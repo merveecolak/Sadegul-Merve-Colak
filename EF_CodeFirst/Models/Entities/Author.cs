@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Models.Entities
+namespace EF_CodeFirst.Models.Entities
 {
     public class Author
     {

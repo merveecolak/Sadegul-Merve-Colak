@@ -2,7 +2,7 @@
 
 namespace EF_CodeFirst.Migrations
 {
-    public partial class IsDeletedAdd : Migration
+    public partial class Mig2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
