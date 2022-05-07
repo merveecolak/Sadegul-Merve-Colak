@@ -1,0 +1,40 @@
+﻿@model List<Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h5>Categories</h5>
+<hr>
+<a asp-action="Create" class="btn btn-primary">New Category</a>
+<a asp-action="Delete" class="btn btn-primary">Deleted Student</a>
+<hr>
+<table class="table table-sm table-dark w-50">
+    <thead>
+        <tr>
+            <th>StudentId</th>
+            <th>StudentNo</th>
+            <th>StudentName</th>
+            <th>StudentSurname</th>
+            <th>DepartmentId</th>
+            <th>Period</th>
+            <th>Ders Seç</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ogrenci in Model)
+        {
+        <tr>
+            <td>@ogrenci.StudentId</td>
+            <td>@ogrenci.StudentNo</td>
+            <td>@ogrenci.StudentName</td>
+            <td>@ogrenci.StudentSurname</td>
+            <td>@ogrenci.DepartmentId</td>         
+            <td>@ogrenci.Period</td>
+            <td> <a asp-action="DersSec" asp-route-id="@ogrenci.StudentId" class="btn btn-sm btn-primary">Ders Seç</a></td>
+
+        </tr>
+        }
+    </tbody>
+</table>

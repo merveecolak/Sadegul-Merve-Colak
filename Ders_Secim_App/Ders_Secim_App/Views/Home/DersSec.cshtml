@@ -1,0 +1,39 @@
+﻿@model List<Course>
+
+@{
+    ViewData["Title"] = "DersSec";
+}
+
+<h5>Courses</h5>
+
+<table class="table table-sm table-dark w-50">
+    <thead>
+        <tr>
+            <th>CourseId</th>
+            <th>CourseName</th>
+            <th>CourseTeacher</th>
+            <th>Credit</th>
+            <th>Period</th>
+            <th>Ders Ekle</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+        <tr>
+            <td>@course.CourseId</td>
+            <td>@course.CourseName</td>
+            <td>@course.CourseTeacher</td>
+            <td>@course.Credit</td>
+            <td>@course.Preiod</td>
+            <td>
+            <td> <a asp-action="" asp-route-id="@course.CourseId" class="btn btn-sm btn-primary">Ekle</a></td>
+            
+
+
+
+        </tr>
+        }
+    </tbody>
+</table>
