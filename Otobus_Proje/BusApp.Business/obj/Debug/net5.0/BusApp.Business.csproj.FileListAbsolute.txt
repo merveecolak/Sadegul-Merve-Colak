@@ -1,0 +1,12 @@
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\bin\Debug\net5.0\BusApp.Business.deps.json
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\bin\Debug\net5.0\BusApp.Business.dll
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\bin\Debug\net5.0\ref\BusApp.Business.dll
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\bin\Debug\net5.0\BusApp.Business.pdb
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\obj\Debug\net5.0\BusApp.Business.csproj.AssemblyReference.cache
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\obj\Debug\net5.0\BusApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\obj\Debug\net5.0\BusApp.Business.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\obj\Debug\net5.0\BusApp.Business.AssemblyInfo.cs
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\obj\Debug\net5.0\BusApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\obj\Debug\net5.0\BusApp.Business.dll
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\obj\Debug\net5.0\ref\BusApp.Business.dll
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Business\obj\Debug\net5.0\BusApp.Business.pdb

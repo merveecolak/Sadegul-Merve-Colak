@@ -1,0 +1,38 @@
+﻿*{
+    margin:0px;
+    padding:0px; 
+    
+}
+#nav{
+    position:fixed;
+    z-index:5;
+    top:0px;
+    left:0px;
+   
+}
+.resim1{
+    width:10%;  
+}
+.slider{
+    position:relative;
+    margin-top: 150px !important;
+}
+.clas1 {
+    position: absolute;
+    top:25%;
+    z-index: 1;
+    left: 0px;
+    right: 0px;
+    background-color:darkgray;
+    width:90%
+    
+}
+
+main{
+    margin-top:
+        50px !important;
+}
+
+
+
+
