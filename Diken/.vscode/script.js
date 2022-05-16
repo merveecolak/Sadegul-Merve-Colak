@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    $("#ilk").mousemove(function(){
-        $("#ilk").css("bacground-color","black");
+// $(document).ready(function(){
+//     $("#x").mousemove(function(){
+//         $("#x").css("bacground-color","black");
         
-    })
-})
+//     })
+// })

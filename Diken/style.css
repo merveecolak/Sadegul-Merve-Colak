@@ -1,9 +1,82 @@
-#ilk:hover{
+ *{
+     margin: 0px !important;
+     padding: 0px !important;
+ }
+ 
+ 
+ #one div:hover {
  background-color: black !important;
- color: white !important;
 }
-#ilk:hover a{
+#one div:hover a{
     color: white !important;
+   }  
 
-   }
+#one div a{
+   text-decoration: none;
+   color: black;
+   font-size:medium;
+}
+
+
+#two{
+    background-color: rgb(248, 242, 242);
+    
+    
+}
+#three{
+    border-left: white!important;
+}
+#four,#five,#six,#seven,#eight,#nine,#ten,#twelve,#fourteen{
+    background-color: rgb(227, 227, 227) !important;
+}
+#eleven{
+    border-right: white!important;
+    
+}
+#thirteen img {
+    width: 30px;
    
+}
+#thirteen div{
+    width: 40px;
+    height: 40px;
+}
+#thirteen {
+    justify-content:flex-start;
+}
+.alan{
+    height: 60px;
+}
+#sixteen{
+    background-color: black;
+}
+#p1,#p2,#p3{
+    text-align: center;
+}
+.icon a{
+    width: 8px;
+}
+
+.icon a img{
+    
+    width: 30px;
+}
+#hr{
+    color: white;
+}
+#finish{
+    color: rgb(95, 91, 91); 
+    width:90%;
+     height: 100px; 
+     text-align: center; 
+}
+#p4{
+    padding-left: 40px;
+}
+#slider{
+    width: 95%;
+}
+#nineteen div{
+    font-size: 20px;
+    
+}
