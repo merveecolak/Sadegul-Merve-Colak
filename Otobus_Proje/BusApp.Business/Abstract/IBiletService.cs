@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusApp.Business.Abstract
 {
-    class IBiletService
+    public interface IBiletService
     {
     }
 }

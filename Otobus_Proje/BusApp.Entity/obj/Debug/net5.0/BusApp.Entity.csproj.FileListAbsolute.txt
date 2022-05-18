@@ -10,3 +10,15 @@ C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Entity\obj\Debug\n
 C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.dll
 C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\ref\BusApp.Entity.dll
 C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.pdb
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\bin\Debug\net5.0\BusApp.Entity.deps.json
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\bin\Debug\net5.0\BusApp.Entity.dll
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\bin\Debug\net5.0\ref\BusApp.Entity.dll
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\bin\Debug\net5.0\BusApp.Entity.pdb
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.csproj.AssemblyReference.cache
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.AssemblyInfoInputs.cache
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.AssemblyInfo.cs
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.dll
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\ref\BusApp.Entity.dll
+C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.pdb

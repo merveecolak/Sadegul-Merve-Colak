@@ -5819,11 +5819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Otobus_Proje\\BusApp.Data\\BusApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Data\\BusApp.Data.csproj",
       "projectName": "BusApp.Data",
-      "projectPath": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Otobus_Proje\\BusApp.Data\\BusApp.Data.csproj",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Data\\BusApp.Data.csproj",
       "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Otobus_Proje\\BusApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5840,8 +5840,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj": {
-              "projectPath": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj"
+            "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj"
             }
           }
         }

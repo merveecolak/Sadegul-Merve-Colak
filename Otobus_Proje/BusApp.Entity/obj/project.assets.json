@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj",
       "projectName": "BusApp.Entity",
-      "projectPath": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj",
       "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Otobus_Proje\\BusApp.Entity\\obj\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",

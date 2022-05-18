@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusApp.Data.Abstract;
+using BusApp.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace BusApp.Business
 {
-    class IGuzergahService
+    public interface IGuzergahService : IRepository<Guzergah>
     {
+        List<Guzergah> GetAll();
     }
 }
