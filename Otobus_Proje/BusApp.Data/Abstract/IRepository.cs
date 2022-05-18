@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace BusApp.Data.Abstract
 {
-    class IRepository
+    public interface IRepository<T>
     {
+        T GetById(int id);
+        List<T> GetAll();
+        void Create(T entity);
+        void Update(T entity);
+        void Delete(T entity);
     }
 }

@@ -16,7 +16,7 @@ namespace BusApp.Data.Concrete.EfCore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=biletDb");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-AT9VDS3;Database=BusDbApp;Trusted_Connection=true;");
         }
     }
 }

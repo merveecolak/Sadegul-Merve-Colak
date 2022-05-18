@@ -10,3 +10,9 @@ C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\obj\Debug\net
 C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\obj\Debug\net5.0\BusApp.Data.dll
 C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\obj\Debug\net5.0\ref\BusApp.Data.dll
 C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\obj\Debug\net5.0\BusApp.Data.pdb
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\bin\Debug\net5.0\BusApp.Data.runtimeconfig.json
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\bin\Debug\net5.0\BusApp.Data.runtimeconfig.dev.json
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\bin\Debug\net5.0\BusApp.Entity.dll
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\bin\Debug\net5.0\BusApp.Entity.pdb
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\obj\Debug\net5.0\BusApp.Data.csproj.CopyComplete
+C:\Users\Casper\source\repos\Web_7\Week14\Otobus_Proje\BusApp.Data\obj\Debug\net5.0\BusApp.Data.genruntimeconfig.cache

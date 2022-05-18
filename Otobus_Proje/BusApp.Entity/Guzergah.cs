@@ -8,7 +8,7 @@ namespace BusApp.Entity
 {
     public class Guzergah
     {
-        public int GüzergahId { get; set; }
+        public int GuzergahId { get; set; }
         public string Baslangıc { get; set; }
         public string gz1 { get; set; }
         public string gz2 { get; set; }
