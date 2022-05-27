@@ -10,6 +10,6 @@ namespace BusApp.Data.Abstract
 {
     public interface IGuzergahRepository : IRepository<Guzergah>
     {
-
+        
     }
-}
+ }

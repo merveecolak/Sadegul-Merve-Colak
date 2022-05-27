@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
@@ -19,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BusApp.Business\BusApp.Business.csproj" />
     <ProjectReference Include="..\BusApp.Data\BusApp.Data.csproj" />
+    <ProjectReference Include="..\BusApp.Entity\BusApp.Entity.csproj" />
   </ItemGroup>
 
 </Project>

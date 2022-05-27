@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Ders_Secim_App\\Ders_Secim_App\\Ders_Secim_App.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Ders_Secim_App\\Ders_Secim_App\\Ders_Secim_App.csproj",
       "projectName": "Ders_Secim_App",
-      "projectPath": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Ders_Secim_App\\Ders_Secim_App\\Ders_Secim_App.csproj",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Ders_Secim_App\\Ders_Secim_App\\Ders_Secim_App.csproj",
       "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Ders_Secim_App\\Ders_Secim_App\\obj\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Ders_Secim_App\\Ders_Secim_App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5875,7 +5875,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqJzvL+R8twZx9y5xQIlbhzEsdPLGqE+5+vn329hL/c9xxhXN7jS+SfEYiLNQXN4/iz7F1t8rb/5EL47jsJpgQ==",
+  "dgSpecHash": "ox7vWow9+977grk7hay+KhOvd14q0guAWrqi+lDIbmL9VXPTU23hhOOtXHsATxVyg9ZWHBkWBsCfzxfyUzFcSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Casper\\source\\repos\\Web_7\\Week14\\Ders_Secim_App\\Ders_Secim_App\\Ders_Secim_App.csproj",
+  "projectFilePath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Ders_Secim_App\\Ders_Secim_App\\Ders_Secim_App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Casper\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Casper\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

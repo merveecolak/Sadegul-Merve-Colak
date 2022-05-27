@@ -1,4 +1,5 @@
-﻿using BusApp.Data.Abstract;
+﻿
+using BusApp.Data.Abstract;
 using BusApp.Entity;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,6 @@ namespace BusApp.Data.Concrete.EfCore
 {
     public class EfCoreGuzergahRepository : EfCoreGenericRepository<Guzergah, BusBiletContext>, IGuzergahRepository
     {
-
+       
     }
 }

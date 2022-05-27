@@ -5846,6 +5846,7 @@
     "net5.0": [
       "BusApp.Business >= 1.0.0",
       "BusApp.Data >= 1.0.0",
+      "BusApp.Entity >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.16"
     ]
   },
@@ -5881,6 +5882,9 @@
             },
             "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Data\\BusApp.Data.csproj": {
               "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Data\\BusApp.Data.csproj"
+            },
+            "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\Otobus_Proje\\BusApp.Entity\\BusApp.Entity.csproj"
             }
           }
         }

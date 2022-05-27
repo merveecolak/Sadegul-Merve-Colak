@@ -24,7 +24,6 @@ namespace Ders_Secim_App.Models.Config
             {
                 optionsBuilder.UseSqlServer("Name=ConnectionStrings:DersSecimApp");
             }
-
         }
     }
 }

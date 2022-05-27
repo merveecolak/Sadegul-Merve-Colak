@@ -1,0 +1,41 @@
+﻿@model List<Expedition>
+
+
+@*<h1>@item.ExpeditionHour</h1>*@
+
+
+
+<table class="table table-dark">
+    <tr class="text-danger font-weight-bold"  style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        <td>Tarih</td>
+        <td>Nereden</td>
+        <td>Nereye</td>
+        <td>Saat</td>
+        <td>Fiyat</td>
+        <td></td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ExpeditionDate</td>
+            <td>@item.ExpeditionStart</td>
+            <td>@item.ExpeditionFinish</td>
+            <td>@item.ExpeditionHour</td>
+            <td>@item.ExpeditionPrice</td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-primary  dropdown-toggle" type="submit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seç
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <div class="row border w-50 h-25">
+                            <button>gvhjg</button>
+                            <button>gvhjg</button>
+                        </div>
+                    </div>
+                </div>
+            </td>
+                      
+        </tr>
+    }
+    </table> 

@@ -14,13 +14,27 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\Views\_ViewImports.cshtml"
-using Otobus_Proje;
+using BusApp.WebUI;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\Views\_ViewImports.cshtml"
+using BusApp.Entity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\Views\_ViewImports.cshtml"
+using BusApp.WebUI.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d56f58ff84182dae4482b5f0badb0f3f113a4169", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fd58cb355cf79d8405e3bd165aeba838e57e15ad", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

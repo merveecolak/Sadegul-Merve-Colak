@@ -12,7 +12,6 @@ C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.Web
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\obj\Debug\net5.0\BusApp.WebUI.TagHelpers.input.cache
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\obj\Debug\net5.0\BusApp.WebUI.TagHelpers.output.cache
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\obj\Debug\net5.0\BusApp.WebUI.RazorCoreGenerate.cache
-C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\obj\Debug\net5.0\Razor\Views\BiletSayfası\Index.cshtml.g.cs
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\Otobus_Proje\BusApp.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
