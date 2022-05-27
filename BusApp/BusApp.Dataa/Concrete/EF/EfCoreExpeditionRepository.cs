@@ -14,6 +14,7 @@ namespace BusApp.Dataa.Concrete.EF
         {
             using (var context = new BusDbContext())
             {
+
                 return context.Expeditions.Where(x => x.ExpeditionStart == nereden && x.ExpeditionFinish == nereye && x.ExpeditionDate == tarih).ToList();
             }
         }

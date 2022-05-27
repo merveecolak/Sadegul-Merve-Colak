@@ -16,7 +16,7 @@ namespace BusApp.Dataa.Concrete.EF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-AT9VDS3;Database=MerveBusApp;Trusted_Connection=true;");
+            optionsBuilder.UseSqlite("Data Source = MerveBusApp");
         }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj": {}
+    "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj",
         "projectName": "BusApp.Bussines",
-        "projectPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj",
-        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Bussines\\obj\\",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Bussines\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj": {
-                "projectPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj"
+              "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj": {
+                "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj"
               },
-              "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj": {
-                "projectPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj"
+              "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj"
               }
             }
           }
@@ -61,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj",
         "projectName": "BusApp.Dataa",
-        "projectPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj",
-        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Dataa\\obj\\",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Dataa\\BusApp.Dataa.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Dataa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj": {
-                "projectPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj"
+              "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj"
               }
             }
           }
@@ -115,7 +115,7 @@
               "target": "Package",
               "version": "[5.0.16, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.16, )"
             }
@@ -135,21 +135,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj",
         "projectName": "BusApp.Entity",
-        "projectPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj",
-        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casper\\Desktop\\asd\\BusApp\\BusApp.Entity\\obj\\",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Entity\\BusApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,7 +189,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
