@@ -27,10 +27,37 @@
                     <button class="btn btn-primary  dropdown-toggle" type="submit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Seç
                     </button>
+                   
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                         <div class="row border w-50 h-25">
-                            <button>gvhjg</button>
-                            <button>gvhjg</button>
+
+                            <form>
+                                <div class="row d-flex bg-success">
+                                    <label> Şoför</label>
+                                    <div class="col-md-4">
+                                        @for (int i = 1; i < 20; i += 3)
+                                        {
+                                            <button id="btn1">@i</button>
+                                        }
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        @for (int i = 2; i < 21; i += 3)
+                                        {
+                                            <button id="btn2">@i</button>
+                                        }
+
+                                    </div>
+                                    <div class="col-md-4">
+                                        @for (int i = 3; i < 22; i += 3)
+                                        {
+                                            <button id="btn3">@i</button>
+                                        }
+                                    </div>
+                                </div>
+
+                            </form>
+                            <button id="devam" type="submit">Devam et</button>
                         </div>
                     </div>
                 </div>
