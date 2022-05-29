@@ -22,4 +22,4 @@ namespace BusApp.WebUI.Controllers
             return View(selectedExpedition);
         }
     }
-}
+}       

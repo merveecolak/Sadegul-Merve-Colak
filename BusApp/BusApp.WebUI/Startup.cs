@@ -2,9 +2,12 @@ using BusApp.Bussines.Abstract;
 using BusApp.Bussines.Concrete;
 using BusApp.Dataa.Abstract;
 using BusApp.Dataa.Concrete.EF;
+using BusApp.WebUI.Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -27,6 +30,31 @@ namespace BusApp.WebUI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApplicationContext>(options => options.UseSqlite("Data Source=MerveBusApp"));
+
+            services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<ApplicationContext>().AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                //Password
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequiredLength = 6;
+
+                //Lockout
+                options.Lockout.MaxFailedAccessAttempts = 3;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+
+                //User
+                options.User.RequireUniqueEmail = true;
+
+                //SignIn
+                options.SignIn.RequireConfirmedEmail = true;
+
+
+            });
             services.AddScoped<IBusRepository, EFCoreBusRepository>();
             services.AddScoped<ICityRepository, EFCoreCityRepository>();
             services.AddScoped<IExpeditionRepository, EfCoreExpeditionRepository>();
