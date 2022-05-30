@@ -48,7 +48,6 @@ C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\D
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\BusApp.Bussines.dll
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\BusApp.Bussines.pdb
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\ref\BusApp.Bussines.dll
-C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\bin\Debug\net5.0\ref\BusApp.Bussines.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\bin\Debug\net5.0\BusApp.Bussines.deps.json
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\bin\Debug\net5.0\BusApp.Bussines.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\bin\Debug\net5.0\ref\BusApp.Bussines.dll
@@ -66,3 +65,4 @@ C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\BusApp.Bussines.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\ref\BusApp.Bussines.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\BusApp.Bussines.pdb
+C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\refint\BusApp.Bussines.dll

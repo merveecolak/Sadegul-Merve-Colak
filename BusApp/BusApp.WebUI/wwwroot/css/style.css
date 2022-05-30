@@ -140,3 +140,25 @@ main {
     background-color: #fff;
     border: 2px solid #4CAF50;
   }
+
+.form-control{
+    transform:rotate(90deg) !important;
+    
+}
+
+.aaa{
+    display: none;
+    z-index:123213;
+}
+
+#aaa:checked ~ .aaa{
+    display: block !important;
+}
+.resim {
+    margin-top:140px;
+    width: 30px;
+    height: 30px;
+}
+#deneme1{
+    width:160px;
+}

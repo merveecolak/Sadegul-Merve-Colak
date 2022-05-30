@@ -33,7 +33,6 @@ C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Deb
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.dll
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.pdb
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\ref\BusApp.Entity.dll
-C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\bin\Debug\net5.0\ref\BusApp.Entity.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Entity\bin\Debug\net5.0\BusApp.Entity.deps.json
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Entity\bin\Debug\net5.0\BusApp.Entity.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Entity\bin\Debug\net5.0\ref\BusApp.Entity.dll
@@ -46,3 +45,4 @@ C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Entity\ob
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\ref\BusApp.Entity.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.pdb
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\refint\BusApp.Entity.dll

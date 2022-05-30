@@ -15,7 +15,6 @@ C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj\Debu
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj\Debug\net5.0\BusApp.Dataa.pdb
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj\Debug\net5.0\BusApp.Dataa.genruntimeconfig.cache
 C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj\Debug\net5.0\ref\BusApp.Dataa.dll
-C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\bin\Debug\net5.0\ref\BusApp.Dataa.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\bin\Debug\net5.0\BusApp.Dataa.deps.json
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\bin\Debug\net5.0\BusApp.Dataa.runtimeconfig.json
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\bin\Debug\net5.0\BusApp.Dataa.runtimeconfig.dev.json
@@ -34,3 +33,4 @@ C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj\Debug\net5.0\ref\BusApp.Dataa.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj\Debug\net5.0\BusApp.Dataa.pdb
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj\Debug\net5.0\BusApp.Dataa.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Dataa\obj\Debug\net5.0\refint\BusApp.Dataa.dll
