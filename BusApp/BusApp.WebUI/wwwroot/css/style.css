@@ -141,19 +141,19 @@ main {
     border: 2px solid #4CAF50;
   }
 
-.form-control{
+/*.form-control{
     transform:rotate(90deg) !important;
     
-}
+}*/
 
-.aaa{
+/*.aaa{
     display: none;
     z-index:123213;
 }
-
-#aaa:checked ~ .aaa{
+*/
+/*#aaa:checked ~ .aaa{
     display: block !important;
-}
+}*/
 .resim {
     margin-top:140px;
     width: 30px;
