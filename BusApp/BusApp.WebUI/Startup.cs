@@ -61,6 +61,7 @@ namespace BusApp.WebUI
             services.AddScoped<IBusService, BusManager>();
             services.AddScoped<ICityService, CityManager>();
             services.AddScoped<IExpeditionService, ExpeditionManager>();
+            services.AddScoped<IPassengerService, PassengerManager>();
             services.AddControllersWithViews();
         }
 

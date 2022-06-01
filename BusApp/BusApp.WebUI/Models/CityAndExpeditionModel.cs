@@ -17,4 +17,6 @@ namespace BusApp.WebUI.Models
         public string Nereye { get; set; }
         public string Tarih { get; set; }
     }
+
+   
 }
