@@ -13,6 +13,8 @@ namespace BusApp.Dataa.Concrete.EF
         public DbSet<Bus> Buses { get; set; }
         public DbSet<City> Cities { get; set; }
         public DbSet<Expedition> Expeditions { get; set; }
+        public DbSet<Passenger> Passengers { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
