@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.WebUI\\BusApp.WebUI.csproj": {}
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Webui\\BusApp.WebUI.csproj": {}
   },
   "projects": {
     "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Bussines\\BusApp.Bussines.csproj": {
@@ -211,14 +211,14 @@
         }
       }
     },
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.WebUI\\BusApp.WebUI.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Webui\\BusApp.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.WebUI\\BusApp.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Webui\\BusApp.WebUI.csproj",
         "projectName": "BusApp.WebUI",
-        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.WebUI\\BusApp.WebUI.csproj",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Webui\\BusApp.WebUI.csproj",
         "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.WebUI\\obj\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BusApp\\BusApp.Webui\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -263,6 +263,12 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
             }
           },
           "imports": [

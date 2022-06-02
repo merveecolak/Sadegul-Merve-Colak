@@ -50,7 +50,6 @@ C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\bin\De
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\bin\Debug\net5.0\BusApp.Entity.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\bin\Debug\net5.0\ref\BusApp.Entity.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\bin\Debug\net5.0\BusApp.Entity.pdb
-C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.csproj.AssemblyReference.cache
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.AssemblyInfoInputs.cache
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.AssemblyInfo.cs
@@ -58,3 +57,4 @@ C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\De
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\ref\BusApp.Entity.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Entity\obj\Debug\net5.0\BusApp.Entity.csproj.AssemblyReference.cache

@@ -82,3 +82,4 @@ C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\BusApp.Bussines.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\ref\BusApp.Bussines.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\BusApp.Bussines.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BusApp\BusApp.Bussines\obj\Debug\net5.0\BusApp.Bussines.csproj.CopyComplete

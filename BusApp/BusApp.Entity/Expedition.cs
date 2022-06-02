@@ -15,9 +15,11 @@ namespace BusApp.Entity
         public string ExpeditionDate { get; set; }
         public string ExpeditionHour { get; set; }
         public decimal ExpeditionPrice { get; set; }
+        
 
-        public int BusId { get; set; }
+        public int BusId { get; set; }       
         // ilişki
         public Bus Bus { get; set; }
+        public Passenger passenger { get; set; }
     }
 }
