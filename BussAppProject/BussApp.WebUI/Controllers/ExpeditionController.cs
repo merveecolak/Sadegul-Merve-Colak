@@ -27,5 +27,11 @@ namespace BussApp.WebUI.Controllers
             ViewBag.Expedition = _expeditionService.GetExpenditionById(id);
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Odeme()
+        {
+            return View();
+        }
     }
 }

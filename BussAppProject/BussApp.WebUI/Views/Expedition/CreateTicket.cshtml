@@ -1,19 +1,79 @@
 ﻿@model Passenger
 
-<form action="/" method="post" class="container">
+<h1 class="display-4 text-danger">Gidiş Bilgileri</h1>
+<form action="/Expedition/Odeme" method="post" class="container">
+
+    <table class="table table-dark text-white">
+        <thead class="text-danger">
+            <tr>
+                <td>Nereden</td>
+                <td>Nereye</td>
+                <td>Tarih</td>
+                <td>Saat</td>
+                <td>Fiyat</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> @ViewBag.Expedition.ExpeditionStart</td>
+                <td> @ViewBag.Expedition.ExpeditionFinish</td>
+                <td> @ViewBag.Expedition.ExpeditionDate</td>
+                <td> @ViewBag.Expedition.ExpeditionHour</td>
+                <td> @ViewBag.Expedition.ExpeditionPrice</td>
+            </tr>
+        </tbody>
+    </table>
 
 
-    <label>Name:</label>
-    <input type="text" asp-for="Name" />
 
-    <label>surname:</label>
-    <input type="text" asp-for="Surname" />
 
-    <label>tcno:</label>
-    <input type="text" asp-for="Tcno" />
+
+
+
+    <div class="row">
+        <div class="form-group row mb-2">
+            <label class="col-sm-3 col-form-label">Ad</label>
+            <div class="col-sm-9">
+                <input type="text" asp-for="Name" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row mb-4">
+            <label class="col-sm-3 col-form-label">Soyadı</label>
+            <div class="col-sm-9">
+                <input type="text" asp-for="Surname" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row mb-2">
+            <label class="col-sm-3 col-form-label">Telefon</label>
+            <div class="col-sm-9">
+                <input type="text" asp-for="SeatNumber" class="form-control" />
+            </div>
+        </div>
+
+
+
+        @*<div class="col-md-2">
+            <label>Ad:</label>
+            <input type="text" asp-for="Name" />
+        </div>
+        <div class="col-md-2">
+            <label>Soyad:</label>
+            <input type="text" asp-for="Surname" />
+        </div>
+        <div class="col-md-2">
+            <label>Koltuk:</label>
+            <input type="text" asp-for="SeatNumber" />
+        </div>*@
+
+    </div>
+    <input type="hidden" name="id" value="PassengerId" class="btn btn-danger" />
+    <button type="submit" class="btn btn-info">Ödeme Adımına Geç</button>
+
 </form>
 
-@ViewBag.Expedition.ExpeditionStart
-@ViewBag.Expedition.ExpeditionFinish
+
+
 
 
