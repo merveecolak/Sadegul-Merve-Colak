@@ -6,6 +6,6 @@
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public DateTime BirthDay { get; set; }
-        public List<StudentCourse> StudentCourses { get; set; }
+        public List<StudentCourse>? StudentCourses { get; set; }
     }
 }

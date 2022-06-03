@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace KURS.DATA.Migrations
 {
-    public partial class mg1 : Migration
+    public partial class m12 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,10 +13,10 @@ namespace KURS.DATA.Migrations
                 name: "Courses",
                 columns: table => new
                 {
-                    CourseId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CourseFakeId = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    CourseId = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", nullable: true),
+                    CourseFakeId = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -27,11 +27,11 @@ namespace KURS.DATA.Migrations
                 name: "Students",
                 columns: table => new
                 {
-                    StudentId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    BirthDay = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    StudentId = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    FirstName = table.Column<string>(type: "TEXT", nullable: true),
+                    LastName = table.Column<string>(type: "TEXT", nullable: true),
+                    BirthDay = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -42,10 +42,10 @@ namespace KURS.DATA.Migrations
                 name: "StudentCourses",
                 columns: table => new
                 {
-                    StudentCourseId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CourseId = table.Column<int>(type: "int", nullable: false),
-                    StudentId = table.Column<int>(type: "int", nullable: false)
+                    StudentCourseId = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    CourseId = table.Column<int>(type: "INTEGER", nullable: false),
+                    StudentId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

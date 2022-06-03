@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wissen\\Desktop\\“KUSYS-Demo\\“KUSYS.UI\\“KUSYS.UI.csproj": {}
+    "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\“KUSYS-Demo\\“KUSYS.UI\\“KUSYS.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wissen\\Desktop\\“KUSYS-Demo\\“KUSYS.UI\\“KUSYS.UI.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\“KUSYS-Demo\\“KUSYS.UI\\“KUSYS.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Desktop\\“KUSYS-Demo\\“KUSYS.UI\\“KUSYS.UI.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\“KUSYS-Demo\\“KUSYS.UI\\“KUSYS.UI.csproj",
         "projectName": "“KUSYS.UI",
-        "projectPath": "C:\\Users\\Wissen\\Desktop\\“KUSYS-Demo\\“KUSYS.UI\\“KUSYS.UI.csproj",
-        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Desktop\\“KUSYS-Demo\\“KUSYS.UI\\obj\\",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\“KUSYS-Demo\\“KUSYS.UI\\“KUSYS.UI.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Sadegul-Merve-Colak\\“KUSYS-Demo\\“KUSYS.UI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -85,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

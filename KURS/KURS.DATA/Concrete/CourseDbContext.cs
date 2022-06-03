@@ -1,5 +1,4 @@
 ﻿using KURS.ENTITY;
-using KUSYS_Project.Data.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,18 +10,12 @@ namespace KURS.DATA.Concrete
 {
     public class CourseDbContext : DbContext
     {
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Course> Courses { get; set; }
-        public DbSet<StudentCourse> StudentCourses { get; set; }
+        public DbSet<Student>? Students { get; set; }
+        public DbSet<Course>? Courses { get; set; }
+        public DbSet<StudentCourse>? StudentCourses { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-MTU4EKB\\SQLEXPRESS;Database=CourseDb;Trusted_Connection=True;");
-
-        }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            SeedDatabase.Seed();
+            optionsBuilder.UseSqlite("Data Source = ABC");
         }
     }
 }

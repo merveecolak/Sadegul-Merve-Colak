@@ -15,7 +15,7 @@ namespace _KUSYS_Data.Concrete
         public DbSet<StudentCourse> StudentCourses { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-MTU4EKB\\SQLEXPRESS; Database=CourseDb;Trusted_Connection=true;");
+            optionsBuilder.UseSqlServer("Server= DESKTOP-OFVK2FD; Database=CourseDb;Trusted_Connection=true;");
 
         }
 

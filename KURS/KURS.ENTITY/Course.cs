@@ -11,6 +11,6 @@ namespace KURS.ENTITY
         public int CourseId { get; set; }
         public string? Name { get; set; }
         public string? CourseFakeId { get; set; }
-        public List<StudentCourse> StudentCourses { get; set; }
+        public List<StudentCourse>? StudentCourses { get; set; }
     }
 }

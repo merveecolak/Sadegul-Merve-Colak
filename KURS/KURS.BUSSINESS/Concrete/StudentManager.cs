@@ -1,6 +1,5 @@
 ﻿using KURS.BUSSINESS.Abstract;
 using KURS.DATA.Abstract;
-using KURS.DATA.Concrete;
 using KURS.ENTITY;
 using System;
 using System.Collections.Generic;
@@ -12,15 +11,15 @@ namespace KURS.BUSSINESS.Concrete
 {
     public class StudentManager : IStudentService
     {
-        private CourseDbContext _context;
-        public StudentManager(CourseDbContext context)
+        private IStudentRepository _studentRepository;
+        public StudentManager(IStudentRepository studentRepository)
         {
-            _context = context;
+            _studentRepository = studentRepository;
         }
 
         public void Create(Student entity)
         {
-            _context.Students.Add(entity);
+            _studentRepository.Create(entity);
         }
 
         public bool Create(Student entity, int[] courseIds)
@@ -30,18 +29,17 @@ namespace KURS.BUSSINESS.Concrete
 
         public void Delete(Student entity)
         {
-            throw new NotImplementedException();
+            _studentRepository.Delete(entity);
         }
 
         public List<Student> GetAll()
         {
-            return _context.Students.ToList();
+            return _studentRepository.GetAll();
         }
 
         public void Update(Student entity)
         {
-
-            throw new NotImplementedException();
+            _studentRepository.Update(entity);
         }
 
         public void Update(Student entity, int[] courseIds)

@@ -1,4 +1,5 @@
-﻿using KURS.BUSSINESS.Concrete;
+﻿using KURS.BUSSINESS.Abstract;
+using KURS.BUSSINESS.Concrete;
 using KURS.DATA.Concrete;
 using KUSYS_Project.Data.Concrete;
 using Microsoft.AspNetCore.Mvc;
@@ -7,21 +8,16 @@ namespace KURS.UI.Controllers
 {
     public class CourseController : Controller
     {
-        private readonly CourseDbContext _context;
-        public CourseController(CourseDbContext context)
+        private ICourseService _courseService;
+
+        public CourseController(ICourseService courseService)
         {
-            _context = context;
+            _courseService = courseService;
         }
+
         public IActionResult Index()
         {
-            var courses = _context.Courses.ToList();
-            if (courses == null)
-            {
-                courses = new List<ENTITY.Course>();
-           
-
-            
-            }
+            var courses = _courseService.GetAll();
             return View(courses);
         }
        
