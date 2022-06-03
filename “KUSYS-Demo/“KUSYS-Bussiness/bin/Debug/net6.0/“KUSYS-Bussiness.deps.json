@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "“KUSYS-Bussiness/1.0.0": {
+        "dependencies": {
+          "“KUSYS-Entity": "1.0.0"
+        },
+        "runtime": {
+          "“KUSYS-Bussiness.dll": {}
+        }
+      },
+      "“KUSYS-Entity/1.0.0": {
+        "runtime": {
+          "“KUSYS-Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "“KUSYS-Bussiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "“KUSYS-Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

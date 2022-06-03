@@ -1,0 +1,17 @@
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.csproj.AssemblyReference.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.AssemblyInfoInputs.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.AssemblyInfo.cs
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\bin\Debug\net6.0\“KUSYS-Data.deps.json
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\bin\Debug\net6.0\“KUSYS-Data.runtimeconfig.json
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\bin\Debug\net6.0\“KUSYS-Data.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\bin\Debug\net6.0\“KUSYS-Data.pdb
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\bin\Debug\net6.0\“KUSYS-Entity.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\bin\Debug\net6.0\“KUSYS-Entity.pdb
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.csproj.CopyComplete
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\refint\“KUSYS-Data.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.pdb
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\“KUSYS-Data.genruntimeconfig.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Data\obj\Debug\net6.0\ref\“KUSYS-Data.dll

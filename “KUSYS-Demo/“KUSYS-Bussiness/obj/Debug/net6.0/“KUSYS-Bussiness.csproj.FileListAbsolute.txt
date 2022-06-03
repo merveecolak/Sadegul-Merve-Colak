@@ -1,0 +1,15 @@
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\bin\Debug\net6.0\“KUSYS-Bussiness.deps.json
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\bin\Debug\net6.0\“KUSYS-Bussiness.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\bin\Debug\net6.0\“KUSYS-Bussiness.pdb
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\“KUSYS-Bussiness.csproj.AssemblyReference.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\“KUSYS-Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\“KUSYS-Bussiness.AssemblyInfoInputs.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\“KUSYS-Bussiness.AssemblyInfo.cs
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\“KUSYS-Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\“KUSYS-Bussiness.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\refint\“KUSYS-Bussiness.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\“KUSYS-Bussiness.pdb
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\ref\“KUSYS-Bussiness.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\bin\Debug\net6.0\“KUSYS-Entity.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\bin\Debug\net6.0\“KUSYS-Entity.pdb
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Bussiness\obj\Debug\net6.0\“KUSYS-Bussiness.csproj.CopyComplete

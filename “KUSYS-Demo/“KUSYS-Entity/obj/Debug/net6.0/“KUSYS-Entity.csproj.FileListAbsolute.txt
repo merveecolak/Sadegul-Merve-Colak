@@ -1,0 +1,12 @@
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\bin\Debug\net6.0\“KUSYS-Entity.deps.json
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\bin\Debug\net6.0\“KUSYS-Entity.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\bin\Debug\net6.0\“KUSYS-Entity.pdb
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\“KUSYS-Entity.csproj.AssemblyReference.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\“KUSYS-Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\“KUSYS-Entity.AssemblyInfoInputs.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\“KUSYS-Entity.AssemblyInfo.cs
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\“KUSYS-Entity.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\“KUSYS-Entity.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\refint\“KUSYS-Entity.dll
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\“KUSYS-Entity.pdb
+C:\Users\Wissen\Desktop\“KUSYS-Demo\“KUSYS-Entity\obj\Debug\net6.0\ref\“KUSYS-Entity.dll
