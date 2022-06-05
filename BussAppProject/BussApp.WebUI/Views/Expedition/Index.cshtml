@@ -27,24 +27,8 @@
 
                         <div class="dropdown-menu">
 
-                            <div class="w-100">
-                                <div id="deneme1" class="row bg-warning ">
-
-                                    <div class="text-xl-left mb-3 ">
-                                        <img class="resim" src="~/img/resim.png" alt="">
-                                    </div>
-                                    @for (int i = 1; i < 22; i++)
-                                    {
-                                        <div class="col-4">
-                                            <input type="checkbox" id="btn1" />
-                                            <label for="btn1">@i</label>
-                                        </div>
-                                    }
-                                </div>
-                            </div>
-
                             <input id="devam" type="hidden" name="id" value="@item.ExpeditionId" class="btn btn-danger" />
-                            <button type="submit">Bilet Al</button>
+                            <button type="submit" class="btn btn-primary">Bilet Al</button>
                         </div>
 
                     </div>

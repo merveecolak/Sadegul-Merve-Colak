@@ -1,4 +1,5 @@
 ﻿using BussAppBussines.Abstract;
+using BussAppData.Abstract;
 using BussAppEntity;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,11 @@ namespace BussAppBussines.Concrete
 {
     public class PassengerManager : IPassengerService
     {
+        //private IPassengerRepository _passengerRepository;
+        //public PassengerManager(IPassengerRepository passengerRepository)
+        //{
+        //    _passengerRepository = passengerRepository;
+        //}
         public void Create(Passenger entity)
         {
             throw new NotImplementedException();
@@ -29,6 +35,8 @@ namespace BussAppBussines.Concrete
         {
             throw new NotImplementedException();
         }
+
+       
 
         public void Update(Passenger entity)
         {

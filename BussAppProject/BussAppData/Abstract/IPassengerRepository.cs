@@ -9,5 +9,6 @@ namespace BussAppData.Abstract
 {
     public interface IPassengerRepository : IRepository<Passenger>
     {
+       
     }
 }

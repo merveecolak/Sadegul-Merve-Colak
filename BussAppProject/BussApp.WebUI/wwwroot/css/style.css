@@ -149,14 +149,7 @@ main {
     
 }*/
 
-/*.aaa{
-    display: none;
-    z-index:123213;
-}
-*/
-/*#aaa:checked ~ .aaa{
-    display: block !important;
-}*/
+
 .resim {
     margin-top: 140px;
     width: 30px;
@@ -166,3 +159,4 @@ main {
 #deneme1 {
     width: 160px;
 }
+

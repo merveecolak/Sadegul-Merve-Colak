@@ -9,5 +9,6 @@ namespace BussAppBussines.Abstract
 {
     public interface IPassengerService :IRepositoryService<Passenger>
     {
+        
     }
 }

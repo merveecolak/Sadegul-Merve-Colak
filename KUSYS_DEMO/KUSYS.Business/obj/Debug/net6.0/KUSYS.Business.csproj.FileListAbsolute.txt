@@ -1,0 +1,15 @@
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\bin\Debug\net6.0\KUSYS.Business.deps.json
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\bin\Debug\net6.0\KUSYS.Business.dll
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\bin\Debug\net6.0\KUSYS.Business.pdb
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.csproj.AssemblyReference.cache
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.AssemblyInfo.cs
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.dll
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\refint\KUSYS.Business.dll
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.pdb
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\ref\KUSYS.Business.dll
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\bin\Debug\net6.0\KUSYS.Entity.dll
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\bin\Debug\net6.0\KUSYS.Entity.pdb
+C:\Users\Casper\source\repos\KUSYS_DEMO\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.csproj.CopyComplete

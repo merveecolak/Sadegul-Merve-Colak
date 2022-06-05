@@ -11,9 +11,11 @@ namespace BussApp.WebUI.Controllers
     public class ExpeditionController : Controller
     {
         private IExpeditionService _expeditionService;
-        public ExpeditionController(IExpeditionService expeditionService)
+        private IPassengerService _passengerService;
+        public ExpeditionController(IExpeditionService expeditionService, IPassengerService passengerService)
         {
             _expeditionService = expeditionService;
+            _passengerService = passengerService;
         }
 
         public IActionResult Index(NewExpedition newExpedition)
@@ -28,10 +30,6 @@ namespace BussApp.WebUI.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Odeme()
-        {
-            return View();
-        }
+        
     }
 }
