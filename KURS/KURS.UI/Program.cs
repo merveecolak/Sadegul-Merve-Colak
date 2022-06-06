@@ -13,6 +13,7 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddScoped<ICourseRepository, EfCoreCourseRepository>();
 builder.Services.AddScoped<IStudentRepository, EfCoreStudentRepository>();
+
 builder.Services.AddScoped<ICourseService, CourseManager>();
 builder.Services.AddScoped<IStudentService, StudentManager>();
 

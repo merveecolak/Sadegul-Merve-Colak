@@ -10,13 +10,6 @@ namespace KUSYS.Data.Concrete.EfCore
 {
     public class EfCoreCourseRepository : EfCoreGenericRepository<Course, CourseDbContext>, ICourseRepository
     {
-        public Course GetByIdWithCourses(string id)
-        {
-            using (var context=new CourseDbContext())
-            {
-                return context.Courses.Where(i=>i.CourseId==id)
-                    .Include(i=>i.)
-            }
-        }
+        
     }
 }

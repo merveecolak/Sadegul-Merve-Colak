@@ -23,9 +23,11 @@ namespace KUSYS.Data.Concrete
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<StudentCourse>().HasKey(x => x.StudentCourseId);
+            
             modelBuilder.Entity<Course>().HasKey(x => x.CourseId);
             modelBuilder.Entity<Student>().HasKey(x => x.StudentId);
+            modelBuilder.Entity<StudentCourse>()
+                 .HasKey(sc => new { sc.CourseId, sc.StudentId });
 
         }
     }

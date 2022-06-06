@@ -16,6 +16,7 @@ namespace KURS.DATA.Concrete.EFCore
             using (var context = new TContext())
             {
                 context.Set<TEntity>().Add(entity);
+                context.SaveChanges();
             }
         }
 
@@ -24,6 +25,7 @@ namespace KURS.DATA.Concrete.EFCore
             using (var context = new TContext())
             {
                 context.Set<TEntity>().Remove(entity);
+                context.SaveChanges();
             }
         }
 
@@ -48,6 +50,7 @@ namespace KURS.DATA.Concrete.EFCore
             using (var context = new TContext())
             {
                 context.Set<TEntity>().Update(entity);
+                context.SaveChanges();
             }
         }
     }

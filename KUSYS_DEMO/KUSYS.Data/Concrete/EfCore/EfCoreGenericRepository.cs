@@ -22,7 +22,10 @@ namespace KUSYS.Data.Concrete.EfCore
 
         public List<TEntity> GetAll()
         {
-            throw new NotImplementedException();
+            using (var context = new CourseDbContext())
+            {
+                return context.Set<TEntity>().ToList();
+            }
         }
 
         public TEntity GetById(int id)

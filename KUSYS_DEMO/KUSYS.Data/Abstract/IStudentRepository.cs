@@ -9,5 +9,8 @@ namespace KUSYS.Data.Abstract
 {
     public interface IStudentRepository : IRepository<Student>
     {
+        List<Student> GetHomePageProducts();
+        public Student GetByIdWithCourses(int id);
     }
 }
+

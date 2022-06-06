@@ -61,19 +61,13 @@ namespace KUSYS.Data.Migrations
 
             modelBuilder.Entity("KUSYS.Entity.StudentCourse", b =>
                 {
-                    b.Property<int>("StudentCourseId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("CourseId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("StudentId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("StudentCourseId");
-
-                    b.HasIndex("CourseId");
+                    b.HasKey("CourseId", "StudentId");
 
                     b.HasIndex("StudentId");
 

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KUSYS.Data.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    [Migration("20220605111656_mig2")]
+    [Migration("20220606063909_mig2")]
     partial class mig2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -51,9 +51,6 @@ namespace KUSYS.Data.Migrations
                     b.Property<string>("FirstName")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Id")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("LastName")
                         .HasColumnType("TEXT");
 
@@ -66,22 +63,13 @@ namespace KUSYS.Data.Migrations
 
             modelBuilder.Entity("KUSYS.Entity.StudentCourse", b =>
                 {
-                    b.Property<int>("StudentCourseId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int?>("CourseId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Id")
+                    b.Property<int>("CourseId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("StudentId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("StudentCourseId");
-
-                    b.HasIndex("CourseId");
+                    b.HasKey("CourseId", "StudentId");
 
                     b.HasIndex("StudentId");
 
@@ -91,7 +79,7 @@ namespace KUSYS.Data.Migrations
             modelBuilder.Entity("KUSYS.Entity.Student", b =>
                 {
                     b.HasOne("KUSYS.Entity.Course", "Course")
-                        .WithMany("Students")
+                        .WithMany()
                         .HasForeignKey("CourseId");
 
                     b.Navigation("Course");
@@ -101,7 +89,9 @@ namespace KUSYS.Data.Migrations
                 {
                     b.HasOne("KUSYS.Entity.Course", "Course")
                         .WithMany("StudentCourse")
-                        .HasForeignKey("CourseId");
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("KUSYS.Entity.Student", "Student")
                         .WithMany("StudentCourses")
@@ -117,8 +107,6 @@ namespace KUSYS.Data.Migrations
             modelBuilder.Entity("KUSYS.Entity.Course", b =>
                 {
                     b.Navigation("StudentCourse");
-
-                    b.Navigation("Students");
                 });
 
             modelBuilder.Entity("KUSYS.Entity.Student", b =>

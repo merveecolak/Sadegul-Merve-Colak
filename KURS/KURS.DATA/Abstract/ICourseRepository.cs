@@ -10,6 +10,6 @@ namespace KURS.DATA.Abstract
 {
     public interface ICourseRepository : IRepository<Course>
     {
-        Course GetByIdWithCourses(string id);
+        Course GetByIdWithCourses(int id);
     }
 }

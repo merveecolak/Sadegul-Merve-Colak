@@ -14,7 +14,6 @@ namespace KUSYS.Entity
         public string? BirthDate { get; set; }
 
         //ilişki
-        //Bir öğrenci birden fazla ders seçebilir
         
         public Course? Course { get; set; }
         public List<StudentCourse>? StudentCourses { get; set; }

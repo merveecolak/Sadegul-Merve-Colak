@@ -4,7 +4,7 @@
 
 namespace KUSYS.Data.Migrations
 {
-    public partial class mig7 : Migration
+    public partial class mig2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

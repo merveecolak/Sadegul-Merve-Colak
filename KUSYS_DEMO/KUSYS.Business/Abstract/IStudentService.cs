@@ -14,5 +14,7 @@ namespace KUSYS.Business.Abstract
         void Delete(Student entity);
         bool Create(Student entity, int[] courseIds);
         void Update(Student entity, int[] courseIds);
+        Student GetByIdWithCourses(int id);
+        List<Student> GetHomePageProducts();
     }
 }

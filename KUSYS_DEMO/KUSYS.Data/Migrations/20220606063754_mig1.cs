@@ -1,11 +1,10 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace KURS.DATA.Migrations
+namespace KUSYS.Data.Migrations
 {
-    public partial class m12 : Migration
+    public partial class mig1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,8 +14,8 @@ namespace KURS.DATA.Migrations
                 {
                     CourseId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: true),
-                    CourseFakeId = table.Column<string>(type: "TEXT", nullable: true)
+                    CourseName = table.Column<string>(type: "TEXT", nullable: true),
+                    CourseCode = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -31,25 +30,29 @@ namespace KURS.DATA.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     FirstName = table.Column<string>(type: "TEXT", nullable: true),
                     LastName = table.Column<string>(type: "TEXT", nullable: true),
-                    BirthDay = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    BirthDate = table.Column<string>(type: "TEXT", nullable: true),
+                    CourseId = table.Column<int>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Students", x => x.StudentId);
+                    table.ForeignKey(
+                        name: "FK_Students_Courses_CourseId",
+                        column: x => x.CourseId,
+                        principalTable: "Courses",
+                        principalColumn: "CourseId");
                 });
 
             migrationBuilder.CreateTable(
                 name: "StudentCourses",
                 columns: table => new
                 {
-                    StudentCourseId = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    CourseId = table.Column<int>(type: "INTEGER", nullable: false),
-                    StudentId = table.Column<int>(type: "INTEGER", nullable: false)
+                    StudentId = table.Column<int>(type: "INTEGER", nullable: false),
+                    CourseId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_StudentCourses", x => x.StudentCourseId);
+                    table.PrimaryKey("PK_StudentCourses", x => new { x.CourseId, x.StudentId });
                     table.ForeignKey(
                         name: "FK_StudentCourses_Courses_CourseId",
                         column: x => x.CourseId,
@@ -65,14 +68,14 @@ namespace KURS.DATA.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_StudentCourses_CourseId",
-                table: "StudentCourses",
-                column: "CourseId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_StudentCourses_StudentId",
                 table: "StudentCourses",
                 column: "StudentId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Students_CourseId",
+                table: "Students",
+                column: "CourseId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -81,10 +84,10 @@ namespace KURS.DATA.Migrations
                 name: "StudentCourses");
 
             migrationBuilder.DropTable(
-                name: "Courses");
+                name: "Students");
 
             migrationBuilder.DropTable(
-                name: "Students");
+                name: "Courses");
         }
     }
 }

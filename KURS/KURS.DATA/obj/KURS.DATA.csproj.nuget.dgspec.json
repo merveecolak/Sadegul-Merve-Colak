@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.DATA\\KURS.DATA.csproj": {}
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\KURS.DATA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.DATA\\KURS.DATA.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\KURS.DATA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.DATA\\KURS.DATA.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\KURS.DATA.csproj",
         "projectName": "KURS.DATA",
-        "projectPath": "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.DATA\\KURS.DATA.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.DATA\\obj\\",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\KURS.DATA.csproj",
+        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -28,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {
-                "projectPath": "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj"
+              "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {
+                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj"
               }
             }
           }
@@ -78,22 +84,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj",
         "projectName": "KURS.ENTITY",
-        "projectPath": "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Desktop\\Ahmet-Kargin-main\\Ahmet-Kargin-main\\KURS\\KURS.ENTITY\\obj\\",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj",
+        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -140,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

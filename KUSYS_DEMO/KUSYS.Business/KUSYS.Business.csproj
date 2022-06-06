@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\KUSYS.Data\KUSYS.Data.csproj" />
     <ProjectReference Include="..\KUSYS.Entity\KUSYS.Entity.csproj" />
   </ItemGroup>
 

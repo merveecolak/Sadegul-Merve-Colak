@@ -23,7 +23,7 @@ namespace KURS.DATA.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("CourseFakeId")
+                    b.Property<string>("CourseCode")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
@@ -32,6 +32,32 @@ namespace KURS.DATA.Migrations
                     b.HasKey("CourseId");
 
                     b.ToTable("Courses");
+
+                    b.HasData(
+                        new
+                        {
+                            CourseId = 1,
+                            CourseCode = "CSI101",
+                            Name = "Introduction to Computer Science"
+                        },
+                        new
+                        {
+                            CourseId = 2,
+                            CourseCode = "CSI102",
+                            Name = "Algorithms"
+                        },
+                        new
+                        {
+                            CourseId = 3,
+                            CourseCode = "MAT101",
+                            Name = "Calculus"
+                        },
+                        new
+                        {
+                            CourseId = 4,
+                            CourseCode = "PHY101",
+                            Name = "Physics"
+                        });
                 });
 
             modelBuilder.Entity("KURS.ENTITY.Student", b =>

@@ -9,7 +9,6 @@ namespace KUSYS.Data.Abstract
 {
     public interface ICourseRepository :IRepository<Course>
     {
-        //Dersleri id ile alıp listeleyeceğim
-        Course GetByIdWithCourses(int id);
+        
     }
 }

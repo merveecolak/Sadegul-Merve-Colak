@@ -12,16 +12,19 @@ namespace KURS.DATA.Concrete.EFCore
 {
     public class EfCoreCourseRepository : EfCoreGenericRepository<Course, CourseDbContext>, ICourseRepository
     {
-        public Course GetByIdWithCourses(string id)
+
+        public Course GetByIdWithCourses(int id)
         {
             using (var context = new CourseDbContext())
             {
                 return context.Courses
-                    .Where(i => i.CourseFakeId == id)
-                    .Include(i => i.StudentCourses)
-                    .ThenInclude(i => i.Course)
-                    .FirstOrDefault();
-            }
+                      .Where(i => i.CourseId == id)
+                      .Include(i => i.StudentCourses).ThenInclude(i=>i.Student.StudentId)
+                      .FirstOrDefault();
+            };
+
+
+
         }
     }
 }

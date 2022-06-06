@@ -39,6 +39,7 @@ namespace KURS.BUSSINESS.Concrete
         public void Update(Course entity)
         {
             _courseRepository.Update(entity);
+            
         }
     }
 }

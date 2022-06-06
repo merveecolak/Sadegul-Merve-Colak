@@ -11,8 +11,8 @@ namespace KUSYS.Entity
         public int CourseId { get; set; }
         public string? CourseName { get; set; }
         public string? CourseCode { get; set; }
-        //ilişki
-      
+
+        //ilişki    
         public List<StudentCourse>? StudentCourse { get; set; }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using KURS.BUSSINESS.Abstract;
 using KURS.BUSSINESS.Concrete;
 using KURS.DATA.Concrete;
-using KUSYS_Project.Data.Concrete;
+using KURS.ENTITY;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KURS.UI.Controllers
@@ -18,8 +18,49 @@ namespace KURS.UI.Controllers
         public IActionResult Index()
         {
             var courses = _courseService.GetAll();
-            return View(courses);
+            return View(courses); 
         }
-       
+
+
+        // list
+        public IActionResult CourseList()
+        {
+            return View(_courseService.GetAll());
+        }
+        
+
+        // delete
+        public IActionResult CourseDelete(int courseId)
+        {
+           var entity = _courseService.GetById(courseId);    
+            _courseService.Delete(entity);
+            return RedirectToAction("Index");
+        }
+         
+        // Edit
+
+        public IActionResult Edit(int id)
+        {
+            var course = _courseService.GetById(id);
+            return View(course);
+        }
+        [HttpPost]
+        public IActionResult Edit(Course course)
+        {
+            _courseService.Update(course);
+            return RedirectToAction("Index");
+        }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Course course)
+        {
+            _courseService.Create(course);
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

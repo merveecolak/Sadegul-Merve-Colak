@@ -12,3 +12,17 @@ C:\Users\SABAH\Desktop\Ahmet-Kargin-main\Ahmet-Kargin-main\KURS\KURS.ENTITY\obj\
 C:\Users\SABAH\Desktop\Ahmet-Kargin-main\Ahmet-Kargin-main\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.pdb
 C:\Users\SABAH\Desktop\Ahmet-Kargin-main\Ahmet-Kargin-main\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.genruntimeconfig.cache
 C:\Users\SABAH\Desktop\Ahmet-Kargin-main\Ahmet-Kargin-main\KURS\KURS.ENTITY\obj\Debug\net6.0\ref\KURS.ENTITY.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\bin\Debug\net6.0\KURS.ENTITY.deps.json
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\bin\Debug\net6.0\KURS.ENTITY.runtimeconfig.json
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\bin\Debug\net6.0\KURS.ENTITY.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\bin\Debug\net6.0\KURS.ENTITY.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.csproj.AssemblyReference.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.AssemblyInfoInputs.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.AssemblyInfo.cs
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\refint\KURS.ENTITY.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.genruntimeconfig.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\ref\KURS.ENTITY.dll

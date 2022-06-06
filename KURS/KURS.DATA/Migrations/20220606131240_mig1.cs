@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace KUSYS.Data.Migrations
+namespace KURS.DATA.Migrations
 {
     public partial class mig1 : Migration
     {
@@ -15,7 +15,8 @@ namespace KUSYS.Data.Migrations
                 {
                     CourseId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    CourseName = table.Column<string>(type: "TEXT", nullable: true)
+                    Name = table.Column<string>(type: "TEXT", nullable: true),
+                    CourseCode = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -30,18 +31,11 @@ namespace KUSYS.Data.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     FirstName = table.Column<string>(type: "TEXT", nullable: true),
                     LastName = table.Column<string>(type: "TEXT", nullable: true),
-                    BirthDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    Id = table.Column<int>(type: "INTEGER", nullable: false),
-                    CourseId = table.Column<int>(type: "INTEGER", nullable: true)
+                    BirthDay = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Students", x => x.StudentId);
-                    table.ForeignKey(
-                        name: "FK_Students_Courses_CourseId",
-                        column: x => x.CourseId,
-                        principalTable: "Courses",
-                        principalColumn: "CourseId");
                 });
 
             migrationBuilder.CreateTable(
@@ -50,9 +44,8 @@ namespace KUSYS.Data.Migrations
                 {
                     StudentCourseId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    StudentId = table.Column<int>(type: "INTEGER", nullable: false),
-                    Id = table.Column<int>(type: "INTEGER", nullable: false),
-                    CourseId = table.Column<int>(type: "INTEGER", nullable: true)
+                    CourseId = table.Column<int>(type: "INTEGER", nullable: false),
+                    StudentId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -61,7 +54,8 @@ namespace KUSYS.Data.Migrations
                         name: "FK_StudentCourses_Courses_CourseId",
                         column: x => x.CourseId,
                         principalTable: "Courses",
-                        principalColumn: "CourseId");
+                        principalColumn: "CourseId",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_StudentCourses_Students_StudentId",
                         column: x => x.StudentId,
@@ -69,6 +63,26 @@ namespace KUSYS.Data.Migrations
                         principalColumn: "StudentId",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Courses",
+                columns: new[] { "CourseId", "CourseCode", "Name" },
+                values: new object[] { 1, "CSI101", "Introduction to Computer Science" });
+
+            migrationBuilder.InsertData(
+                table: "Courses",
+                columns: new[] { "CourseId", "CourseCode", "Name" },
+                values: new object[] { 2, "CSI102", "Algorithms" });
+
+            migrationBuilder.InsertData(
+                table: "Courses",
+                columns: new[] { "CourseId", "CourseCode", "Name" },
+                values: new object[] { 3, "MAT101", "Calculus" });
+
+            migrationBuilder.InsertData(
+                table: "Courses",
+                columns: new[] { "CourseId", "CourseCode", "Name" },
+                values: new object[] { 4, "PHY101", "Physics" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_StudentCourses_CourseId",
@@ -79,11 +93,6 @@ namespace KUSYS.Data.Migrations
                 name: "IX_StudentCourses_StudentId",
                 table: "StudentCourses",
                 column: "StudentId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Students_CourseId",
-                table: "Students",
-                column: "CourseId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -92,10 +101,10 @@ namespace KUSYS.Data.Migrations
                 name: "StudentCourses");
 
             migrationBuilder.DropTable(
-                name: "Students");
+                name: "Courses");
 
             migrationBuilder.DropTable(
-                name: "Courses");
+                name: "Students");
         }
     }
 }

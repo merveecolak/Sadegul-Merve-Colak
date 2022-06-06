@@ -1,4 +1,5 @@
 ﻿using KUSYS.Business.Abstract;
+using KUSYS.Data.Abstract;
 using KUSYS.Entity;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,12 @@ namespace KUSYS.Business.Concrete
 {
     public class StudentManager : IStudentService
     {
+        private IStudentRepository _studentRepository;
+        public StudentManager(IStudentRepository studentRepository)
+        {
+            _studentRepository = studentRepository;
+        }
+
         public bool Create(Student entity, int[] courseIds)
         {
             throw new NotImplementedException();
@@ -21,6 +28,16 @@ namespace KUSYS.Business.Concrete
         }
 
         public List<Student> GetAll()
+        {
+           return _studentRepository.GetAll().ToList();
+        }
+
+        public Student GetByIdWithCourses(int id)
+        {
+            return _studentRepository.GetByIdWithCourses(id);
+        }
+
+        public List<Student> GetHomePageProducts()
         {
             throw new NotImplementedException();
         }
