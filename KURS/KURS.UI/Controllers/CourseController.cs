@@ -43,6 +43,7 @@ namespace KURS.UI.Controllers
             _courseService.Update(course);
             return RedirectToAction("Index");
         }
+        // create
         public IActionResult Create()
         {
             return View();
