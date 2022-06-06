@@ -2331,28 +2331,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wissen\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Casper\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\KURS.DATA.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\KURS.DATA.csproj",
       "projectName": "KURS.DATA",
-      "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\KURS.DATA.csproj",
-      "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\obj\\",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\KURS.DATA.csproj",
+      "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.DATA\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2365,8 +2357,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {
-              "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj"
+            "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {
+              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj"
             }
           }
         }

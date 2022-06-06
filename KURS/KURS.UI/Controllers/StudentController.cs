@@ -33,8 +33,8 @@ namespace KURS.UI.Controllers
 
         public IActionResult Edit(int id)
         {
-            var course = _studentService.GetById(id);
-            return View(course);
+            var student = _studentService.GetById(id);
+            return View(student);
         }
         [HttpPost]
         public IActionResult Edit(Student student)
@@ -42,7 +42,7 @@ namespace KURS.UI.Controllers
             _studentService.Update(student);
             return RedirectToAction("Index");
         }
-
+        //create
         public IActionResult Create()
         {
             return View();

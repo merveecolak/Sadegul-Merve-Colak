@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {}
+    "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {
+    "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj",
+        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj",
         "projectName": "KURS.ENTITY",
-        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj",
-        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\obj\\",
+        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\KURS.ENTITY.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\new\\Sadegul-Merve-Colak\\KURS\\KURS.ENTITY\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
