@@ -9,11 +9,12 @@ namespace KURS.BUSSINESS.Abstract
 {
     public interface IStudentService
     {
+        Student GetById(int id);
         List<Student> GetAll();
         void Update(Student entity);
         void Delete(Student entity);
-        bool Create(Student entity, int[] courseIds);
-        void Update(Student entity, int[] courseIds);
+        bool Create(Student entity);
+        //void Update(Student entity, int[] courseIds);
         
     }
 }

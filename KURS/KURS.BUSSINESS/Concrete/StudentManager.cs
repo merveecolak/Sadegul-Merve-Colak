@@ -22,11 +22,7 @@ namespace KURS.BUSSINESS.Concrete
             _studentRepository.Create(entity);
         }
 
-        public bool Create(Student entity, int[] courseIds)
-        {
-            throw new NotImplementedException();
-        }
-
+       
         public void Delete(Student entity)
         {
             _studentRepository.Delete(entity);
@@ -37,12 +33,17 @@ namespace KURS.BUSSINESS.Concrete
             return _studentRepository.GetAll();
         }
 
+        public Student GetById(int id)
+        {
+            return _studentRepository.GetById(id);
+        }
+
         public void Update(Student entity)
         {
             _studentRepository.Update(entity);
         }
 
-        public void Update(Student entity, int[] courseIds)
+        bool IStudentService.Create(Student entity)
         {
             throw new NotImplementedException();
         }

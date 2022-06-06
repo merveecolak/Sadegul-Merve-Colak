@@ -20,6 +20,46 @@ namespace KURS.UI.Controllers
             return View(students);
         }
 
+        // delete
+        public IActionResult Delete(int id)
+        {
+            var student = _studentService.GetById(id);
+            _studentService.Delete(student);
+            return RedirectToAction("Index");
+        }
+
+
+        // Edit
+
+        public IActionResult Edit(int id)
+        {
+            var course = _studentService.GetById(id);
+            return View(course);
+        }
+        [HttpPost]
+        public IActionResult Edit(Student student)
+        {
+            _studentService.Update(student);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Student student)
+        {
+            _studentService.Create(student);
+            return RedirectToAction("Index");
+        }
+
+
+
+
+
+
+
 
         //public IActionResult Details(int id)
         //{

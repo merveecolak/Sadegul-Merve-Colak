@@ -32,7 +32,8 @@ namespace KURS.DATA.Concrete
                 new Student() {StudentId=4,FirstName="Ali",LastName="Daglı"}
             };
 
-            modelBuilder.Entity<Course>().HasData(courses); 
+            modelBuilder.Entity<Course>().HasData(courses);
+            modelBuilder.Entity<Student>().HasData(student);
 
         }
     }

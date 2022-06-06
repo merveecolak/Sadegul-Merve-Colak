@@ -15,19 +15,12 @@ namespace KURS.UI.Controllers
             _courseService = courseService;
         }
 
+        // list
         public IActionResult Index()
         {
             var courses = _courseService.GetAll();
             return View(courses); 
-        }
-
-
-        // list
-        public IActionResult CourseList()
-        {
-            return View(_courseService.GetAll());
-        }
-        
+        }      
 
         // delete
         public IActionResult CourseDelete(int courseId)
