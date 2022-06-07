@@ -1,0 +1,31 @@
+﻿@model StudentCourse
+
+
+<h5 class="display-4">Add Course</h5>
+<hr />
+<form asp-controller="StudentCourse" asp-action="SelectCouse" method="post">
+    <div class="row">
+
+        <div class="col-md-8">
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">Course:</label>
+                <div class="col-sm-9">
+                    <select type="text" asp-for="Course.Name" class="form-control">
+                       
+                           @foreach (var item in (List<StudentCourse>)ViewBag.StudentCource)
+                            {
+                               <option>@item.Course.Name</option>
+                            }
+                      
+                    </select>
+
+                   
+                </div>
+            </div>
+
+           </div>
+
+            </div>
+        </div>
+    </div>
+</form>

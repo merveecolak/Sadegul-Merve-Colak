@@ -1,0 +1,60 @@
+﻿@model List<KURS.ENTITY.Student>
+@{
+    ViewData["Title"] = "Student List";
+}
+
+<h5 class="display-6 bg-danger w-100 p-3 text-white">STUDENT LİST</h5>
+<hr>
+<a class="btn btn-success" asp-action="Create">Create a new Student</a>
+<hr>
+<table class="table table-sm table-dark w-100 mt-2 ">
+    <thead class="bg-primary p-3">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>BirthDay</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.StudentId</td>
+                <td>@student.FirstName</td>
+                <td>@student.LastName</td>
+                <td>@student.BirthDay</td>
+                <td>
+                    <div class="row d-flex flex-wrap">
+                        <div class="col-md-2">
+                       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Details</button>
+                     
+                        </div>
+
+                        <div class="col-md-2">
+                         <a class="btn  btn-warning" asp-action="Edit" asp-route-id="@student.StudentId">Edit</a>                                        
+                       </div>
+
+                       <div class="col-md-2">
+                           <form asp-controller="Student" asp-action="Delete" method="post">
+                                <input type="hidden" name="studentId" value="@student.StudentId">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                           </form>
+                       </div>
+
+                       <div class="col-md-2">
+                            <a class="btn btn-sm btn-success" asp-controller="StudentCourse" asp-action="SelectCourse" asp-route-id="@student.StudentId">
+                                Ders Seç
+                            </a>
+                            
+                       </div>
+                    </div>
+                   
+                   
+                </td>
+            </tr>
+             <partial name="_StudentDetail" model="@student"/>
+        }
+    </tbody>
+</table>

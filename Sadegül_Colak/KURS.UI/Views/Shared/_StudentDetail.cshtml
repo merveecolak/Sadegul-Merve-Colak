@@ -1,0 +1,52 @@
+﻿@model Student
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Student Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+          <div class="row">
+              <div class="col-md-4">
+                   <label>ID:</label>
+                   <label asp-for="StudentId">@Model.StudentId</label>
+              </div>
+
+               <div class="col-md-4">
+                    <label>Student Name:</label>
+                    <label asp-for="FirstName">@Model.FirstName</label>
+              </div>
+
+               <div class="col-md-4">
+                    <label>Student LastName:</label>
+                    <label  asp-for="LastName">@Model.LastName</label>
+              </div>
+
+               <div class="col-md-4">
+                   <label>Student LastName:</label>
+                   <label  asp-for="LastName">@Model.LastName</label>
+              </div>
+
+              <div class="col-md-4">
+                  <label>Birthday:</label>
+                  <label  asp-for="BirthDay">@Model.BirthDay</label>
+              </div>
+
+               @*<div class="col-md-4">
+                   <label>Student Course:</label>
+                   <label  asp-for="LastName">@Model.LastName</label>
+              </div>*@
+          </div>      
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>

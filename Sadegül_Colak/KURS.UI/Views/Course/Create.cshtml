@@ -1,0 +1,13 @@
+﻿@model Course
+
+<h5 class="display-6">Create Course</h5>
+<hr>
+<form asp-action="Create">
+    <label>Course Name:</label>
+    <input type="text" asp-for="Name">
+
+    <label>Course Code:</label>
+    <input type="text" asp-for="CourseCode">
+
+    <input class="btn btn-primary" type="submit" value="Save Changes">
+</form>

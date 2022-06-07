@@ -1,0 +1,16 @@
+﻿@model Student
+
+<h5 class="display-6">Create Student</h5>
+<hr>
+<form asp-action="Create">
+    <label>Student Name:</label>
+    <input type="text" asp-for="FirstName">
+
+    <label>Student LastName:</label>
+    <input type="text" asp-for="LastName">
+
+     <label>Birthday:</label>
+    <input type="date" asp-for="BirthDay">
+
+    <input class="btn btn-primary" type="submit" value="Save Changes">
+</form>
