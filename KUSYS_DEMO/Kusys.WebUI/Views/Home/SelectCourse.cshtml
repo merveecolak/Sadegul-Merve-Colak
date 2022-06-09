@@ -1,0 +1,15 @@
+﻿@model Student
+
+<form asp-controller="Home" asp-action="SelectCourse" type="submit">
+    <input type="hidden" asp-for="StudentName"  />
+    <label>@Model.StudentName</label>
+
+    <input type="hidden" asp-for="StudentLastname"  />
+    <label>@Model.StudentLastname</label>
+
+    <input type="hidden" asp-for="StudentName"  />
+    <label>@Model.StudentBirthday</label>
+
+    <input type="hidden" asp-for="StudentName"  />
+    <label>@Model.StudentName</label>
+</form>

@@ -13,7 +13,7 @@ namespace KURS.DATA.Concrete
         public DbSet<Student>? Students { get; set; }
         public DbSet<Course>? Courses { get; set; }
         public DbSet<StudentCourse>? StudentCourses { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer("Server=DESKTOP-MTU4EKB\\SQLEXPRESS;Database=CourseDb;Trusted_Connection=True;");
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlite("Data Source = KursDb.db ");
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             Course[] courses = new Course[4]

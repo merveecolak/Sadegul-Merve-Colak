@@ -5,7 +5,6 @@ C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebU
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\BussApp.WebUI.runtimeconfig.json
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\BussApp.WebUI.runtimeconfig.dev.json
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\BussApp.WebUI.dll
-C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\ref\BussApp.WebUI.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\BussApp.WebUI.pdb
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\BussApp.WebUI.Views.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\BussApp.WebUI.Views.pdb
@@ -52,7 +51,6 @@ C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebU
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.RazorAssemblyInfo.cache
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.RazorAssemblyInfo.cs
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\staticwebassets\BussApp.WebUI.StaticWebAssets.Manifest.cache
-C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\staticwebassets\BussApp.WebUI.StaticWebAssets.xml
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\scopedcss\bundle\BussApp.WebUI.styles.css
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.TagHelpers.input.cache
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.TagHelpers.output.cache
@@ -146,3 +144,5 @@ C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BussAppProject\BussApp.
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\ref\BussApp.WebUI.dll
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.pdb
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.genruntimeconfig.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\BussApp.WebUI.StaticWebAssets.xml
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\refint\BussApp.WebUI.dll

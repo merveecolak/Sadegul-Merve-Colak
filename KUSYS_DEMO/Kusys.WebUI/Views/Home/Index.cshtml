@@ -1,0 +1,33 @@
+﻿@model List<Student>
+
+
+    <table>
+        <thead>
+            <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+            <th>Student Surname</th>
+            <th>Birthday</th>
+            <th>Transactions</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.StudentId</td>
+                    <td>@item.StudentName</td>
+                    <td>@item.StudentLastname</td>
+                    <td>@item.StudentBirthday</td>
+                    <td>
+                        <form asp-action="SelectCourse"  class="d-inline">
+                        <input type="hidden" name="studentId"  />
+                        <button type="submit" class="btn btn-info">Ders Sec</button>
+                    </form>
+                    </td>
+                  
+            </tr>   
+            }
+        </tbody>
+    </table>

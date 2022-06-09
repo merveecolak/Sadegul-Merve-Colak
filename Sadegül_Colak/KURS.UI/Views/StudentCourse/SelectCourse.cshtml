@@ -3,7 +3,7 @@
 
 <h5 class="display-4">Add Course</h5>
 <hr />
-<form asp-controller="StudentCourse" asp-action="SelectCouse" method="post">
+<form asp-controller="StudentCourse" asp-action="SelectCourse" method="post">
     <div class="row">
 
         <div class="col-md-8">
@@ -12,7 +12,7 @@
                 <div class="col-sm-9">
                     <select type="text" asp-for="Course.Name" class="form-control">
                        
-                           @foreach (var item in (List<StudentCourse>)ViewBag.StudentCource)
+                           @foreach (var item in ViewBag.StudentCource)
                             {
                                <option>@item.Course.Name</option>
                             }

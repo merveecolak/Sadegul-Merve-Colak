@@ -8,10 +8,12 @@ namespace KURS.UI.Controllers
     public class StudentController : Controller
     {
         private readonly IStudentService _studentService;
+        private readonly ICourseService _courseService;
         //ctor
-        public StudentController(IStudentService studentService)
+        public StudentController(IStudentService studentService, ICourseService courseService)
         {
             _studentService=studentService;
+            _courseService=courseService;
         }
 
         public IActionResult Index()
@@ -39,6 +41,7 @@ namespace KURS.UI.Controllers
         [HttpPost]
         public IActionResult Edit(Student student)
         {
+            
             _studentService.Update(student);
             return RedirectToAction("Index");
         }
@@ -53,8 +56,17 @@ namespace KURS.UI.Controllers
             _studentService.Create(student);
             return RedirectToAction("Index");
         }
+        public IActionResult SelectCourse()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult SelectCourse(Student student)
+        {
+            var x = _courseService.GetAll();
+            ViewBag.selectCourse = x;
+            return View(student);
+        }
 
-
-    
     }
 }

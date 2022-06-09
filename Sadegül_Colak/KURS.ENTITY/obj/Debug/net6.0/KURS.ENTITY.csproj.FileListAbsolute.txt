@@ -40,17 +40,3 @@ C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\De
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.pdb
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.genruntimeconfig.cache
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\KURS\KURS.ENTITY\obj\Debug\net6.0\ref\KURS.ENTITY.dll
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\bin\Debug\net6.0\KURS.ENTITY.deps.json
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\bin\Debug\net6.0\KURS.ENTITY.runtimeconfig.json
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\bin\Debug\net6.0\KURS.ENTITY.dll
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\bin\Debug\net6.0\KURS.ENTITY.pdb
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.csproj.AssemblyReference.cache
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.AssemblyInfoInputs.cache
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.AssemblyInfo.cs
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.csproj.CoreCompileInputs.cache
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.dll
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\refint\KURS.ENTITY.dll
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.pdb
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\KURS.ENTITY.genruntimeconfig.cache
-C:\Users\Wissen\Desktop\Sadegül_Colak\KURS.ENTITY\obj\Debug\net6.0\ref\KURS.ENTITY.dll

@@ -1,0 +1,12 @@
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\Kusys.Entity.csproj.AssemblyReference.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\Kusys.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\Kusys.Entity.AssemblyInfoInputs.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\Kusys.Entity.AssemblyInfo.cs
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\Kusys.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\bin\Debug\net6.0\Kusys.Entity.deps.json
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\bin\Debug\net6.0\Kusys.Entity.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\bin\Debug\net6.0\Kusys.Entity.pdb
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\Kusys.Entity.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\refint\Kusys.Entity.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\Kusys.Entity.pdb
+C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Entity\obj\Debug\net6.0\ref\Kusys.Entity.dll
