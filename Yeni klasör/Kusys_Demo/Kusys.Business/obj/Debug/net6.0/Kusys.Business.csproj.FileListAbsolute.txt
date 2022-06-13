@@ -15,3 +15,20 @@ C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Bu
 C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Data.pdb
 C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Entity.pdb
 C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.csproj.CopyComplete
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Business.deps.json
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Business.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Business.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Data.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Entity.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Data.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\bin\Debug\net6.0\Kusys.Entity.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.csproj.AssemblyReference.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.AssemblyInfoInputs.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.AssemblyInfo.cs
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.csproj.CopyComplete
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\refint\Kusys.Business.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\Kusys.Business.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Business\obj\Debug\net6.0\ref\Kusys.Business.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MY0exywJXSKhRHqtRG0YeD5b/3tQg3TJsXaR2F0shn6wc5NBUqMtCC9IC6cKa1En7fhqLLmUuOx4A/hY1ilLwQ==",
+  "dgSpecHash": "cRT5qNGPGP6jQruVb31j1VyOPCW7b9IkvBG6qVL4brsttjsN/6j586J/uEdMCW25tk03Ahtm41bAwZfX58iYbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.WebUI\\Kusys.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.WebUI\\Kusys.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

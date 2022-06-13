@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c1b/0gBOlyjxs12bncmos/VeJoI4JBxJNLpJXC8uEE+NhjCAtWnLl7n/ChQcpZJ5hrpzJ6PtLoaDF4ry8Fl4gQ==",
+  "dgSpecHash": "auATBSfp3Bisu4/V2Zpspk5kWiet5CVD6xwEr7Y5c9BMFPie043np5MNZwATmxh1Iep8zHwR0c0pdY6CgxZm6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

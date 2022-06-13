@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kXKGjBIh1tcY3svlbMzpq5cLRyAU0BCkLS61IAJxUxjtQ4jk6DpJ/mhd88B+FHfUdeLVh59+P9BVGaJEJ1A0Lg==",
+  "dgSpecHash": "fXne3BE/1fou2OKxCHjS/VDU84HfXNWVDo6NY0J4m+JrZjyf9FNeLvcYcaaVgP8JLBs/ktfSTE3WwAHQfJi5lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

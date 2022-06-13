@@ -41,9 +41,20 @@ namespace Kusys.Data.Concrete
             }
         }
 
+        public TEntity GetById(string id)
+        {
+            using (var context =new CourseDbContext())
+            {
+                return context.Set<TEntity>().Find(id);
+            }
+        }
+
         public void Update(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (var context = new CourseDbContext())
+            {
+                context.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified; context.SaveChanges();
+            }
         }
     }
 }

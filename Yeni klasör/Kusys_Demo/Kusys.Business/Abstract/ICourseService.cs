@@ -9,7 +9,7 @@ namespace Kusys.Business.Abstract
 {
     public interface ICourseService
     {
-        Course GetById(int id);
+        Course GetById(string id);
         List<Course> GetAll();
         void Create(Course entity);
         void Update(Course entity);

@@ -1,8 +1,51 @@
-﻿@model Student
+﻿@using Kusys.WebUI.Models
+@model StudentModel
+<h6>Course List</h6>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-sm table-bordered">
+                <thead>
+                    <tr>
+                        <td>Ad</td>
+                        <td>Soyad</td>
+                        <td>Ders</td>
+                        <td></td>
+                       
+                    </tr>
+                </thead>
+              <form  asp-action="SelectedCourse"  asp-controller="Home" method="post" >
 
-<form asp-controller="Home" asp-action="SelectCourse" type="submit">
+                <tbody>
+                    <tr>
+                        <td>@Model.StudentName</td>
+                        <td>@Model.StudentLastname</td>
+                        <td>                            
+                                <select id="">
+                                    @foreach (var item in Model.Courses)
+                                    {
+                                        <option value="@item.CourseId">@item.CourseName</option>                                       
+                                    }
+                                </select>                                                            
+                        </td>
+                        <td>
+                                <input type="hidden" name="studentId" value="@Model.StudentId"/>
+                                <button type="submit" class="btn btn-primary">Seç</button>
+                        </td>
+                    </tr>
+                </tbody>
+                              </form>
+
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+@*<form asp-controller="Home" asp-action="SelectCourse" type="submit">
     <input type="hidden" asp-for="StudentName"  />
-    <label>@Model.StudentName</label>
+    <label></label>
 
     <input type="hidden" asp-for="StudentLastname"  />
     <label>@Model.StudentLastname</label>
@@ -12,4 +55,6 @@
 
     <input type="hidden" asp-for="StudentName"  />
     <label>@Model.StudentName</label>
-</form>
+</form>*@
+
+

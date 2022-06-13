@@ -39,7 +39,7 @@ namespace Kusys.Business.Concrete
 
         public void Update(Student entity)
         {
-            throw new NotImplementedException();
+            _studentRepository.Update(entity);
         }
     }
 }

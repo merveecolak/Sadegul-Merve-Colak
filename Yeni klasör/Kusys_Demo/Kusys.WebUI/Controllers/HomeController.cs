@@ -1,4 +1,6 @@
 ﻿using Kusys.Business.Abstract;
+using Kusys.Entity;
+using Kusys.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -21,19 +23,31 @@ namespace Kusys.WebUI.Controllers
 
             return View(x);
         }
-        public IActionResult SelectCourse(int id)
+        public IActionResult SelectCourse(int studentId)
         {
-            var studentId = _studentService.GetById(id);
-           ViewBag.course= _courseService.GetAll();
-            return View();
+            var student = _studentService.GetById(studentId);
+            var course = _courseService.GetAll();
+            var studentModel = new StudentModel()
+            {
+                StudentId = student.StudentId,
+                StudentBirthday = student.StudentBirthday,
+                StudentLastname = student.StudentLastname,
+                StudentName = student.StudentName,
+                Courses = course
+            };
+            return View(studentModel);
         }
-        //[HttpPost]
-        //public IActionResult SelectCourse()
-        //{
-        //    _studentService.GetAll();
-        //    var course = _courseService.GetAll();
-        //    ViewBag.courseSelect = course;
-        //    return View();
-        //}
+
+
+        [HttpPost]
+        public IActionResult SelectedCourse(StudentModel model)
+        {
+            var studentId = _studentService.GetById(model.StudentId);
+
+            
+            _studentService.Update(studentId);
+
+         return RedirectToAction("SelectCourse");
+        }
     }
 }

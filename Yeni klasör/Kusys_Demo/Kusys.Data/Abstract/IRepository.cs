@@ -9,6 +9,7 @@ namespace Kusys.Data.Abstract
     public interface IRepository<T>
     {
         T GetById(int id);
+        T GetById(string id);
         List<T> GetAll();
         void Create(T entity);
         void Update(T entity);

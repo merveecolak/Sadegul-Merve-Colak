@@ -15,3 +15,20 @@ C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Da
 C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Data\bin\Debug\net6.0\Kusys.Entity.dll
 C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Data\bin\Debug\net6.0\Kusys.Entity.pdb
 C:\Users\Web ve Mobil Öğle\source\repos\Learn\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.csproj.CopyComplete
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\bin\Debug\net6.0\Kusys.Data.deps.json
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\bin\Debug\net6.0\Kusys.Data.runtimeconfig.json
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\bin\Debug\net6.0\Kusys.Data.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\bin\Debug\net6.0\Kusys.Data.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\bin\Debug\net6.0\Kusys.Entity.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\bin\Debug\net6.0\Kusys.Entity.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.csproj.AssemblyReference.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.AssemblyInfoInputs.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.AssemblyInfo.cs
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.csproj.CopyComplete
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\refint\Kusys.Data.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.pdb
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\Kusys.Data.genruntimeconfig.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\Yeni klasör\Kusys_Demo\Kusys.Data\obj\Debug\net6.0\ref\Kusys.Data.dll

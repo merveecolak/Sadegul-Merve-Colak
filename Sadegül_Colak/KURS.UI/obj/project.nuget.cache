@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "egdAFpBuufnj2Di5PX4arwDbDKdknVfznZ6buNA6DZt14Sp3HOio1AMppy/nGAu6z0So7DC/3niCrLsaBb2LFw==",
+  "dgSpecHash": "1jFq0w4CctRz+dUkDcc2vTBlvoh+WarWwE46nehXcdT9oncwAJI8qIyX/MssGyy1nB+1UDjdBWJ+Xn1vmW9AFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.UI\\KURS.UI.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.UI\\KURS.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

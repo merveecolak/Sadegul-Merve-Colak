@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jzAszzZLAvb3UN1RPGpbw6hj+otA8DaCC/RwmCFGpsaaQz4Ng97ecKd3QaT2yfh1S3FF9KE8JhnDhwO7NoxkYQ==",
+  "dgSpecHash": "GOe09oioex0iCmB2vXL1nWFapmFJGd2zIINLYEbNEXRDzj50r6PK1VKJnhM/Sj8JPZcJa9rmtf+wN4xlZVyeiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

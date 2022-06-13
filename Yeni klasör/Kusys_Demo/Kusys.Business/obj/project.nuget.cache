@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M9OfX2+QUuFuXwBAc+8em48fYSsdEABM3w9McMY178W9sx7QT4ZX/VPsQo8TDHdBDUCipzdS8oxQ/vgRp8KxiA==",
+  "dgSpecHash": "EDPNpMoDWmiAahKaPnkJsyqJJg4EKH4/EJpPS9FJFseOrkAh20xMgh7hp5iFsIX3I4rqpMhO46ZznAui1Ox2xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

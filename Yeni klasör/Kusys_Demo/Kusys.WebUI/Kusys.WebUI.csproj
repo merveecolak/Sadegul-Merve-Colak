@@ -18,8 +18,4 @@
     <ProjectReference Include="..\Kusys.Data\Kusys.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>

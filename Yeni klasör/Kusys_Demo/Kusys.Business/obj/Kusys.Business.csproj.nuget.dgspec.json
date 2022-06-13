@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj": {}
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj",
         "projectName": "Kusys.Business",
-        "projectPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\Kusys.Business.csproj",
         "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\obj\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,11 +34,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj": {
-                "projectPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj"
+              "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj": {
+                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj"
               },
-              "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj": {
-                "projectPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj"
+              "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj": {
+                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj",
         "projectName": "Kusys.Data",
-        "projectPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\Kusys.Data.csproj",
         "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\obj\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -101,8 +101,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj": {
-                "projectPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj"
+              "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj": {
+                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj",
         "projectName": "Kusys.Entity",
-        "projectPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\Kusys.Entity.csproj",
         "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Learn\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\obj\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Yeni klasör\\Kusys_Demo\\Kusys.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

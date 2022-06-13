@@ -19,7 +19,7 @@ namespace Kusys.Business.Concrete
 
         public void Create(Course entity)
         {
-           
+            throw new NotImplementedException();
         }
 
         public void Delete(Course entity)
@@ -33,9 +33,9 @@ namespace Kusys.Business.Concrete
 
         }
 
-        public Course GetById(int id)
+        public Course GetById(string id)
         {
-            throw new NotImplementedException();
+            return _courseRepository.GetById(id);
         }
 
         public void Update(Course entity)

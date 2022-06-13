@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj": {}
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj",
         "projectName": "KURS.BUSSINESS",
-        "projectPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.BUSSINESS\\KURS.BUSSINESS.csproj",
         "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.BUSSINESS\\obj\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.BUSSINESS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,11 +34,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj": {
-                "projectPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj"
+              "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj": {
+                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj"
               },
-              "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj": {
-                "projectPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj"
+              "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj": {
+                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj",
         "projectName": "KURS.DATA",
-        "projectPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.DATA\\KURS.DATA.csproj",
         "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.DATA\\obj\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.DATA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -101,8 +101,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj": {
-                "projectPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj"
+              "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj": {
+                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj",
         "projectName": "KURS.ENTITY",
-        "projectPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\KURS.ENTITY.csproj",
         "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Desktop\\Sadegül_Colak\\KURS.ENTITY\\obj\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\Sadegül_Colak\\KURS.ENTITY\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
