@@ -1,5 +1,6 @@
 ﻿using BussApp.WebUI.Models;
 using BussAppBussines.Abstract;
+using BussAppEntity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -27,6 +28,13 @@ namespace BussApp.WebUI.Controllers
         public IActionResult CreateTicket(int id)
         {
             ViewBag.Expedition = _expeditionService.GetExpenditionById(id);
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Passenger passenger)
+        {
+            _passengerService.Create(passenger);
             return View();
         }
 

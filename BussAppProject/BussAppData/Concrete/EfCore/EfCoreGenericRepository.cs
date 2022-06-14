@@ -12,7 +12,11 @@ namespace BussAppData.Concrete.EfCore
     {
         public void Create(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (var context= new TContext())
+            {
+                context.Set<TEntity>().Add(entity);
+                context.SaveChanges();
+            }
         }
 
         public void Delete(TEntity entity)

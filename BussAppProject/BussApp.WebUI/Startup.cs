@@ -33,6 +33,8 @@ namespace BussApp.WebUI
             services.AddScoped<IBusRepository, EfCoreBusRepository>();
             services.AddScoped<ICityRepository, EfCoreCityRepository>();
             services.AddScoped<IExpeditionRepository, EfCoreExpeditionRepository>();
+            services.AddScoped<IPassengerRepository, EfCorePasssengerRepository>();
+
             services.AddScoped<IBusService, BusManager>();
             services.AddScoped<ICityService, CityManager>();
             services.AddScoped<IExpeditionService, ExpeditionManager>();

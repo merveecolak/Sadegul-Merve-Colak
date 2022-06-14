@@ -11,14 +11,14 @@ namespace BussAppBussines.Concrete
 {
     public class PassengerManager : IPassengerService
     {
-        //private IPassengerRepository _passengerRepository;
-        //public PassengerManager(IPassengerRepository passengerRepository)
-        //{
-        //    _passengerRepository = passengerRepository;
-        //}
+        private IPassengerRepository _passengerRepository;
+        public PassengerManager(IPassengerRepository passengerRepository)
+        {
+            _passengerRepository = passengerRepository;
+        }
         public void Create(Passenger entity)
         {
-            throw new NotImplementedException();
+            _passengerRepository.Create(entity);
         }
 
         public void Delete(Passenger entity)

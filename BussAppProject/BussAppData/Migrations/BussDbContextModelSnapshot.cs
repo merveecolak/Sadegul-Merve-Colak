@@ -101,6 +101,9 @@ namespace BussAppData.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("SeatNumber")
                         .HasColumnType("INTEGER");
 
@@ -121,7 +124,7 @@ namespace BussAppData.Migrations
                         .IsRequired();
 
                     b.HasOne("BussAppEntity.Passenger", "passenger")
-                        .WithMany("expeditions")
+                        .WithMany()
                         .HasForeignKey("PassengerId");
 
                     b.Navigation("Bus");
@@ -132,11 +135,6 @@ namespace BussAppData.Migrations
             modelBuilder.Entity("BussAppEntity.Bus", b =>
                 {
                     b.Navigation("Expeditions");
-                });
-
-            modelBuilder.Entity("BussAppEntity.Passenger", b =>
-                {
-                    b.Navigation("expeditions");
                 });
 #pragma warning restore 612, 618
         }
