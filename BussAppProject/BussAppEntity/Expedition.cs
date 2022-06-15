@@ -19,6 +19,6 @@ namespace BussAppEntity
         public int BusId { get; set; }
         // ilişki
         public Bus Bus { get; set; }
-        public Passenger passenger { get; set; }
+        public List<Passenger> passenger { get; set; }
     }
 }

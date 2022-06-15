@@ -36,21 +36,6 @@ namespace BussAppData.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Passengers",
-                columns: table => new
-                {
-                    PassengerId = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: true),
-                    Surname = table.Column<string>(type: "TEXT", nullable: true),
-                    SeatNumber = table.Column<int>(type: "INTEGER", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Passengers", x => x.PassengerId);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Expeditions",
                 columns: table => new
                 {
@@ -62,8 +47,7 @@ namespace BussAppData.Migrations
                     ExpeditionDate = table.Column<string>(type: "TEXT", nullable: true),
                     ExpeditionHour = table.Column<string>(type: "TEXT", nullable: true),
                     ExpeditionPrice = table.Column<decimal>(type: "TEXT", nullable: false),
-                    BusId = table.Column<int>(type: "INTEGER", nullable: false),
-                    PassengerId = table.Column<int>(type: "INTEGER", nullable: true)
+                    BusId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -74,12 +58,33 @@ namespace BussAppData.Migrations
                         principalTable: "Buses",
                         principalColumn: "BusId",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Passengers",
+                columns: table => new
+                {
+                    PassengerId = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", nullable: true),
+                    Surname = table.Column<string>(type: "TEXT", nullable: true),
+                    SeatNumber = table.Column<int>(type: "INTEGER", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "TEXT", nullable: true),
+                    Start = table.Column<string>(type: "TEXT", nullable: true),
+                    Finish = table.Column<string>(type: "TEXT", nullable: true),
+                    Hour = table.Column<string>(type: "TEXT", nullable: true),
+                    Date = table.Column<string>(type: "TEXT", nullable: true),
+                    ExpeditionId = table.Column<int>(type: "INTEGER", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Passengers", x => x.PassengerId);
                     table.ForeignKey(
-                        name: "FK_Expeditions_Passengers_PassengerId",
-                        column: x => x.PassengerId,
-                        principalTable: "Passengers",
-                        principalColumn: "PassengerId",
-                        onDelete: ReferentialAction.Restrict);
+                        name: "FK_Passengers_Expeditions_ExpeditionId",
+                        column: x => x.ExpeditionId,
+                        principalTable: "Expeditions",
+                        principalColumn: "ExpeditionId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -88,9 +93,9 @@ namespace BussAppData.Migrations
                 column: "BusId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Expeditions_PassengerId",
-                table: "Expeditions",
-                column: "PassengerId");
+                name: "IX_Passengers_ExpeditionId",
+                table: "Passengers",
+                column: "ExpeditionId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -99,13 +104,13 @@ namespace BussAppData.Migrations
                 name: "Cities");
 
             migrationBuilder.DropTable(
+                name: "Passengers");
+
+            migrationBuilder.DropTable(
                 name: "Expeditions");
 
             migrationBuilder.DropTable(
                 name: "Buses");
-
-            migrationBuilder.DropTable(
-                name: "Passengers");
         }
     }
 }

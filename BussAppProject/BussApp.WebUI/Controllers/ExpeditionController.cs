@@ -34,10 +34,15 @@ namespace BussApp.WebUI.Controllers
         [HttpPost]
         public IActionResult Create(Passenger passenger)
         {
+           
             _passengerService.Create(passenger);
-            return View();
+            return View(passenger);
         }
 
-        
+        //public IActionResult Passenger(int id)
+        //{
+        //    ViewBag.pas = _expeditionService.GetAll();
+        //    return View();
+        //}
     }
 }

@@ -22,16 +22,13 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Otel</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Otel" asp-action="Index">Otel</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Araç Kiralama</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="AracKiralama" asp-action="Index">Araç Kiralama</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Yolcum Nerede</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">İletişim</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Iletisim" asp-action="Index">İletişim</a>
                         </li>
 
                     </ul>
@@ -53,7 +50,7 @@
 
     </header>
 
-    <main role="main" class="mt-5">
+    <main role="main">
         @RenderBody()
     </main>
 
