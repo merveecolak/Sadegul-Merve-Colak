@@ -14,10 +14,12 @@ namespace BussApp.WebUI.Controllers
     public class HomeController : Controller
     {
         private ICityService _cityService;
+        
 
         public HomeController(ICityService cityService)
         {
             _cityService = cityService;
+          
         }
 
         public IActionResult Index()
@@ -26,6 +28,7 @@ namespace BussApp.WebUI.Controllers
             cityAndExpeditionModel.Cities = _cityService.GetAll();
             return View(cityAndExpeditionModel);
         }
+
 
     }
 }

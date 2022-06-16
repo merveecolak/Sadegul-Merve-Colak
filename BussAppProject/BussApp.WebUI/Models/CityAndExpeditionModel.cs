@@ -11,7 +11,7 @@ namespace BussApp.WebUI.Models
     {
         public NewExpedition NewExpedition { get; set; }
         public List<City> Cities { get; set; }
-        public List<Passenger> Passengers { get; set; }
+       
     }
     public class NewExpedition
     {

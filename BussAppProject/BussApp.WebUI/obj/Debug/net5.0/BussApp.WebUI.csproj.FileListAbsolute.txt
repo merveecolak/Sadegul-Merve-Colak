@@ -145,7 +145,8 @@ C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BussAppProject\BussApp.
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.pdb
 C:\Users\Casper\Documents\GitHub\new\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.genruntimeconfig.cache
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\Razor\Views\Expedition\Create.cshtml.g.cs
-C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\refint\BussApp.WebUI.dll
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\Razor\Views\Otel\Index.cshtml.g.cs
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\Razor\Views\AracKiralama\Index.cshtml.g.cs
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\Razor\Views\Iletisim\Index.cshtml.g.cs
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\ref\BussApp.WebUI.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\staticwebassets\BussApp.WebUI.StaticWebAssets.xml

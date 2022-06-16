@@ -1,4 +1,5 @@
 ﻿using BussAppBussines.Abstract;
+using BussAppData.Abstract;
 using BussAppEntity;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,11 @@ namespace BussAppBussines.Concrete
 {
     public class BusManager : IBusService
     {
+        private IBusRepository _busRepository;
+        public BusManager(IBusRepository busRepository)
+        {
+            _busRepository = busRepository;
+        }
         public void Create(Bus entity)
         {
             throw new NotImplementedException();
@@ -28,6 +34,12 @@ namespace BussAppBussines.Concrete
         public Bus GetById(Bus Entity)
         {
             throw new NotImplementedException();
+        }
+
+        public Bus Seat(int seat)
+        {
+          return  _busRepository.Seat(seat);
+           
         }
 
         public void Update(Bus entity)

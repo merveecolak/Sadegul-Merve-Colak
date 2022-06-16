@@ -13,11 +13,13 @@ namespace BussApp.WebUI.Controllers
     {
         private IExpeditionService _expeditionService;
         private IPassengerService _passengerService;
-        public ExpeditionController(IExpeditionService expeditionService, IPassengerService passengerService)
+        private IBusService _busService;
+        public ExpeditionController(IExpeditionService expeditionService, IPassengerService passengerService,IBusService busService)
         {
             _expeditionService = expeditionService;
             _passengerService = passengerService;
-        }
+            _busService = busService;
+    }
 
         public IActionResult Index(NewExpedition newExpedition)
         {
@@ -34,15 +36,16 @@ namespace BussApp.WebUI.Controllers
         [HttpPost]
         public IActionResult Create(Passenger passenger)
         {
-           
+                   
             _passengerService.Create(passenger);
             return View(passenger);
         }
-
-        //public IActionResult Passenger(int id)
-        //{
-        //    ViewBag.pas = _expeditionService.GetAll();
-        //    return View();
-        //}
+       
+        public IActionResult Seat(int seat)
+        {
+            ViewBag.Seat = _busService.Seat(seat);
+            return View();
+        }
+     
     }
 }

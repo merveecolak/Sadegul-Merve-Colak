@@ -9,5 +9,6 @@ namespace BussAppBussines.Abstract
 {
     public interface IBusService:IRepositoryService<Bus>
     {
+        Bus Seat(int seat);
     }
 }

@@ -9,5 +9,6 @@ namespace BussAppData.Abstract
 {
     public interface IBusRepository :IRepository<Bus>
     {
+        Bus Seat(int seat);
     }
 }

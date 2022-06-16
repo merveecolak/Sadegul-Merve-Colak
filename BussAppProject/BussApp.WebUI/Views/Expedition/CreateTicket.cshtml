@@ -1,5 +1,6 @@
 ﻿@model Passenger
 
+
 <h1 class="display-4 text-danger">Gidiş Bilgileri</h1>
 <form asp-action="Create" asp-controller="Expedition" method="post" class="container">
 
@@ -58,29 +59,29 @@
                     <input type="text" asp-for="PhoneNumber" class="form-control" />
                 </div>
             </div>
-
-
         </div>
+
         <div class="form-group row">
 
-            <div class="col-sm-5">
-                
+            <div class="col-sm-5">               
                 <input type="hidden" asp-for="ExpeditionId" value="@ViewBag.Expedition.ExpeditionId" class="form-control" />
             </div>
         </div>
+
     </div>
 
         <div class="w-50">
             <img src="~/img/koltuk.png" id="koltuk" />
 
             <div class="form-group row">
-                <select name="Koltuk" id="" class=" col-sm-4 custom-select">
-                    <option>Koltuk seç</option>
-                    <option value="bir">1</option>
-                    <option value="iki">2</option>
-                    <option value="üç">3</option>
-                    <option value="dört">4</option>
+                <select name="SeatNumber" id="" class="col-sm-4 custom-select">
+                    @foreach (var item in ViewBag.Seat.BusSeatNumber)
+                    {
+                        <option value="@item.SeatNumber">@item.SeatNumber</option>
+                    }
+
                 </select>
+                <input type="text" asp-for="SeatNumber" class="form-control" />
             </div>
 
         </div>
