@@ -9,6 +9,6 @@ namespace BussAppData.Abstract
 {
     public interface IPassengerRepository : IRepository<Passenger>
     {
-       
+        List<int> DoluKoltuklar(int seat);
     }
 }

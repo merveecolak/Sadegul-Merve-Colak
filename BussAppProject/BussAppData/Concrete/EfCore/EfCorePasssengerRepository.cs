@@ -11,6 +11,14 @@ namespace BussAppData.Concrete.EfCore
 {
     public class EfCorePasssengerRepository : EfCoreGenericRepository<Passenger, BussDbContext>, IPassengerRepository
     {
-        
+        public List<int> DoluKoltuklar(int seat)
+        {
+            using (var context =new BussDbContext())
+            {
+                var dolukoltuklar = context.Passengers.Where(i => i.ExpeditionId == seat).Select(i => i.SeatNumber).ToList();
+                
+                return dolukoltuklar;   
+            }
+        }
     }
 }

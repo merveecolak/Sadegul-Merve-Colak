@@ -29,7 +29,19 @@ namespace BussApp.WebUI.Controllers
 
         public IActionResult CreateTicket(int id)
         {
-            ViewBag.Expedition = _expeditionService.GetExpenditionById(id);
+            var sefer = _expeditionService.GetExpenditionById(id);
+            var dolukoltuklar = _busService.DoluKoltuklar(id);
+            
+            var koltuklar = new List<int>();
+            for (int i = 1; i < 41; i++)
+            {
+                koltuklar.Add(i);
+            }
+            foreach (var item in dolukoltuklar)
+            {
+                koltuklar.Remove(item);
+            }
+            ViewBag.Seat.BusSeatNumber();
             return View();
         }
 
@@ -43,7 +55,7 @@ namespace BussApp.WebUI.Controllers
        
         public IActionResult Seat(int seat)
         {
-            ViewBag.Seat = _busService.Seat(seat);
+            ViewBag.Seat = _busService.DoluKoltuklar(seat);
             return View();
         }
      

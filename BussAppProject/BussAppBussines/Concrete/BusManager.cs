@@ -12,10 +12,14 @@ namespace BussAppBussines.Concrete
     public class BusManager : IBusService
     {
         private IBusRepository _busRepository;
-        public BusManager(IBusRepository busRepository)
+        private IPassengerRepository _passengerRepository;
+
+        public BusManager(IBusRepository busRepository, IPassengerRepository passengerRepository)
         {
             _busRepository = busRepository;
+            _passengerRepository = passengerRepository;
         }
+
         public void Create(Bus entity)
         {
             throw new NotImplementedException();
@@ -24,6 +28,11 @@ namespace BussAppBussines.Concrete
         public void Delete(Bus entity)
         {
             throw new NotImplementedException();
+        }
+
+        public List<int> DoluKoltuklar(int seat)
+        {
+            return _passengerRepository.DoluKoltuklar(seat);
         }
 
         public List<Bus> GetAll()
@@ -36,11 +45,7 @@ namespace BussAppBussines.Concrete
             throw new NotImplementedException();
         }
 
-        public Bus Seat(int seat)
-        {
-          return  _busRepository.Seat(seat);
-           
-        }
+       
 
         public void Update(Bus entity)
         {
