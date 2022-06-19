@@ -36,7 +36,10 @@ namespace BussAppBussines.Concrete
             throw new NotImplementedException();
         }
 
-       
+        public Passenger GetPassengerById(int id)
+        {
+            return _passengerRepository.GetById(id);
+        }
 
         public void Update(Passenger entity)
         {

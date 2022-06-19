@@ -74,13 +74,13 @@
             <img src="~/img/koltuk.png" id="koltuk" />
 
             <div class="form-group row">
-                <select name="SeatNumber" id="" class="col-sm-4 custom-select">
+                @*<select name="SeatNumber" id="" class="col-sm-4 custom-select">
                     @foreach (var item in ViewBag.Seat.BusSeatNumber)
                     {
                         <option value="@item.SeatNumber">@item.SeatNumber</option>
                     }
 
-                </select>
+                </select>*@
                 <input type="text" asp-for="SeatNumber" class="form-control" />
             </div>
 
