@@ -20,5 +20,29 @@ namespace BussAppData.Concrete.EfCore
                 return dolukoltuklar;   
             }
         }
+
+        public int GetCountByKoltuk(int passengerId)
+        {
+            using (var context = new BussDbContext())
+            {
+                return context.Passengers
+                    .Where(i => i.PassengerId == passengerId)
+                    .Select(i => i.SeatNumber)
+                    .Count();
+            }
+        }
+
+        public List<int> GetKoltuk(int passengerId)
+        {
+            using (var context = new BussDbContext())
+            {
+                var koltuk = context.Passengers
+                    .Where(i => i.PassengerId == passengerId)
+                    .Select(i => i.SeatNumber)
+                    .ToList();
+
+                return koltuk;
+            }
+        }
     }
 }

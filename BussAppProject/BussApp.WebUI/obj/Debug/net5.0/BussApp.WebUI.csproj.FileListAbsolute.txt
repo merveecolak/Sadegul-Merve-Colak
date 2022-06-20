@@ -148,8 +148,6 @@ C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebU
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\Razor\Views\Otel\Index.cshtml.g.cs
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\Razor\Views\AracKiralama\Index.cshtml.g.cs
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\Razor\Views\Iletisim\Index.cshtml.g.cs
-C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\ref\BussApp.WebUI.dll
-C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\staticwebassets\BussApp.WebUI.StaticWebAssets.xml
 C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\appsettings.json
 C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\bin\Debug\net5.0\BussApp.WebUI.exe
@@ -228,3 +226,4 @@ C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebU
 C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\ref\BussApp.WebUI.dll
 C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.pdb
 C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\BussApp.WebUI.genruntimeconfig.cache
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussApp.WebUI\obj\Debug\net5.0\refint\BussApp.WebUI.dll

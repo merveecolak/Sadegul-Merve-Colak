@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Casper\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\BussAppEntity.csproj": {}
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\BussAppEntity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Casper\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\BussAppEntity.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\BussAppEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\BussAppEntity.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\BussAppEntity.csproj",
         "projectName": "BussAppEntity",
-        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\BussAppEntity.csproj",
-        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\obj\\",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\BussAppEntity.csproj",
+        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussAppEntity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,5 +10,7 @@ namespace BussAppBussines.Abstract
     public interface IPassengerService :IRepositoryService<Passenger>
     {
         Passenger GetPassengerById(int id);
+        int GetCountByKoltuk(int passengerId);
+        public List<int> GetKoltuk(int passengerId);
     }
 }

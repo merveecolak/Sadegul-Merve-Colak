@@ -36,6 +36,16 @@ namespace BussAppBussines.Concrete
             throw new NotImplementedException();
         }
 
+        public int GetCountByKoltuk(int passengerId)
+        {
+            return _passengerRepository.GetCountByKoltuk(passengerId);
+        }
+
+        public List<int> GetKoltuk(int passengerId)
+        {
+            return _passengerRepository.GetKoltuk(passengerId);
+        }
+
         public Passenger GetPassengerById(int id)
         {
             return _passengerRepository.GetById(id);

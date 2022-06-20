@@ -32,7 +32,7 @@ namespace BussAppBussines.Concrete
 
         public List<int> DoluKoltuklar(int seat)
         {
-            return _passengerRepository.DoluKoltuklar(seat);
+            return _passengerRepository.GetKoltuk(seat);
         }
 
         public List<Bus> GetAll()
