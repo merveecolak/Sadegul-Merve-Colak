@@ -79,7 +79,7 @@
     </div>
 
     <div class="form-group row mt-2">
-        <select name="koltukno" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Koltuklar" required="required" style="width: 630px; height:45px; margin-left: 30px;" required="required">
+        <select asp-for="SeatNumber" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Koltuklar" required="required" style="width: 630px; height:45px; margin-left: 30px;">
             <option selected disabled>Koltuk Seçiniz</option>
         </select>
     </div>
