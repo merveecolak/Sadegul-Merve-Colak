@@ -53,11 +53,6 @@ namespace BussApp.WebUI.Controllers
             return View(passenger);
         }
        
-        //public IActionResult Seat(int seat)
-        //{
-        //    ViewBag.Seat = _busService.DoluKoltuklar(seat);
-        //    return View();
-        //}
-     
+       
     }
 }

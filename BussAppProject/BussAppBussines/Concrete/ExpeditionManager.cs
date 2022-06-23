@@ -31,7 +31,7 @@ namespace BussAppBussines.Concrete
 
         public List<Expedition> GetAll()
         {
-            throw new NotImplementedException();
+            return _expeditionRepository.GetAll();
         }
 
         public Expedition GetById(Expedition Entity)

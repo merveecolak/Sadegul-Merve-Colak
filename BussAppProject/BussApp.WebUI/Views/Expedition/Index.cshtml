@@ -1,35 +1,44 @@
 ﻿@model List<Expedition>
 
-
-<form action="/Expedition/CreateTicket" method="post">
-    <table class="table table-dark">
-        <tr class="text-danger font-weight-bold" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
-            <td>Tarih</td>
-            <td>Nereden</td>
-            <td>Nereye</td>
-            <td>Saat</td>
-            <td>Fiyat</td>
-            <td></td>
-        </tr>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.ExpeditionDate</td>
-                <td>@item.ExpeditionStart</td>
-                <td>@item.ExpeditionFinish</td>
-                <td>@item.ExpeditionHour</td>
-                <td>@item.ExpeditionPrice</td>
-                <td>
+@if (Model.Count() < 1)
+{
+    <div class="display-4 text-center ">Sefer  bulunamadı</div>
+}
+else
+{
+    <form action="/Expedition/CreateTicket" method="post">
+        <table class="table table-dark mt-3">
+            <tr class="text-danger font-weight-bold" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+                <td>Tarih</td>
+                <td>Nereden</td>
+                <td>Nereye</td>
+                <td>Saat</td>
+                <td>Fiyat</td>
+                <td></td>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ExpeditionDate</td>
+                    <td>@item.ExpeditionStart</td>
+                    <td>@item.ExpeditionFinish</td>
+                    <td>@item.ExpeditionHour</td>
+                    <td>@item.ExpeditionPrice</td>
+                    <td>
                         <div>
 
                             <input id="devam" type="hidden" name="id" value="@item.ExpeditionId" class="btn btn-danger" />
                             <button type="submit" class="btn btn-primary">Bilet Al</button>
-                        </div>                
-                </td>
-            </tr>
-        }
-    </table>
-</form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </table>
+
+    </form>
+}
+
+
 
 
 @*<div>

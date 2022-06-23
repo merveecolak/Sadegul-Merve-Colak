@@ -25,8 +25,9 @@
 
 <div class="clas1 m-auto">
     <form asp-controller="Expedition" asp-action="Index" class="d-flex w-100">
-        <div class="col-3 mb-5 d-flex">
-            <label name="asd" class="form-label my-1 mx-2 font-weight-bold">Nereden</label>
+     
+        <div class="col-3 m-4 d-flex">
+            <label class="form-label my-2 mx-2 font-weight-bold">Nereden</label>
             <select class="form-control" asp-for="NewExpedition.Nereden">
                 @foreach (var item in Model.Cities)
                 {
@@ -35,7 +36,7 @@
             </select>
         </div>
 
-        <div class="col-3 mb-3 mb-5 d-flex me-5">
+        <div class="col-3 m-4 d-flex me-5">
             <label for="" class="form-label my-1 mx-2 font-weight-bold">Nereye</label>
             <select class="form-control" asp-for="NewExpedition.Nereye">
                 @foreach (var item in Model.Cities)
@@ -45,11 +46,11 @@
             </select>
         </div>
 
-        <div class="col-2 mb-3 mb-5 d-flex me-4">
+        <div class="col-2 m-4 d-flex me-4">
             <label for="" class="form-label  my-1 mx-2 font-weight-bold">Tarih</label>
-            <input asp-for="NewExpedition.Tarih" type="date" class="form-control" placeholder="Tarih" id="">
+            <input asp-for="NewExpedition.Tarih" type="date" class="form-control" id="" required="">
         </div>
-        <div class="col-2 mb-3 d-flex">
+        <div class="col-2 m-4 d-flex">
             <button type="submit" class="btn-dark form-control">Sefer Ara</button>
         </div>
     </form>
