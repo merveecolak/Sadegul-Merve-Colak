@@ -25,7 +25,10 @@ namespace BussApp.WebUI.Controllers
         public IActionResult Index(NewExpedition newExpedition)
         {
             var selectedExpedition = _expeditionService.SelectedExpedition(newExpedition.Nereden, newExpedition.Nereye, newExpedition.Tarih);
-            return View(selectedExpedition);
+            
+                return View(selectedExpedition);
+            
+            
         }
 
         public IActionResult CreateTicket(int id)

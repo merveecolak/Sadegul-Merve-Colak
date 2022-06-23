@@ -26,7 +26,15 @@ namespace BussApp.WebUI.Controllers
         {
             CityAndExpeditionModel cityAndExpeditionModel = new CityAndExpeditionModel();
             cityAndExpeditionModel.Cities = _cityService.GetAll();
-            return View(cityAndExpeditionModel);
+            if (cityAndExpeditionModel==null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return View(cityAndExpeditionModel);
+            }
+            
         }
 
 
