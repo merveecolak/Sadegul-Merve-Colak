@@ -9,7 +9,7 @@ namespace BussApp.WebUI.Identity
 {
     public class SeedIdentity
     {
-        public static async Task Seed(UserManager<User> userManager,IConfiguration configuration)
+        public static async Task Seed(UserManager<User> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
         {
             
             var users = configuration.GetSection("UserData:Users");

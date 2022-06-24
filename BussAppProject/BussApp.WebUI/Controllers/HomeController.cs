@@ -14,13 +14,13 @@ namespace BussApp.WebUI.Controllers
     public class HomeController : Controller
     {
         private ICityService _cityService;
-        private IExpeditionService _expeditionService;
+       
         
 
-        public HomeController(ICityService cityService , IExpeditionService expeditionService)
+        public HomeController(ICityService cityService)
         {
             _cityService = cityService;
-            _expeditionService = expeditionService;
+           
 
         }
 
