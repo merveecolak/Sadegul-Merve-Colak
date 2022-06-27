@@ -51,4 +51,4 @@ C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussAppData\
 C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussAppData\obj\Debug\net5.0\BussAppData.pdb
 C:\Users\Casper\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussAppData\obj\Debug\net5.0\BussAppData.genruntimeconfig.cache
 C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussAppData\obj\Debug\net5.0\BussAppData.csproj.CopyComplete
-C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussAppData\obj\Debug\net5.0\refint\BussAppData.dll
+C:\Users\Wissen\Documents\GitHub\Sadegul-Merve-Colak\BussAppProject\BussAppData\bin\Debug\net5.0\ref\BussAppData.dll

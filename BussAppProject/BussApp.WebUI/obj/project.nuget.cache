@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J0hDPU1mVV86UKdEe3VkrmKP5rbkAUQZ4ESOfcLzmRqIp2QZvmXcb8x1IBq/0lAaEeH74G2VtRWwns2lnJn5DA==",
+  "dgSpecHash": "pN/N2/Qosw/Cbt9v0saiph7TWZXgPbbn7Ov06ZUJM7rIRvBTNAMMdHVmpv12F2JJWIOZAsfqZKvba7H/Ja5ZWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Sadegul-Merve-Colak\\BussAppProject\\BussApp.WebUI\\BussApp.WebUI.csproj",
   "expectedPackageFiles": [
@@ -38,8 +38,7 @@
     "C:\\Users\\Wissen\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "C:\\Users\\Wissen\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\Wissen\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }
