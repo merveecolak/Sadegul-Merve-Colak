@@ -1,0 +1,12 @@
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\bin\Debug\net5.0\WebApi.Entity.deps.json
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\bin\Debug\net5.0\WebApi.Entity.dll
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\bin\Debug\net5.0\ref\WebApi.Entity.dll
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\bin\Debug\net5.0\WebApi.Entity.pdb
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\obj\Debug\net5.0\WebApi.Entity.csproj.AssemblyReference.cache
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\obj\Debug\net5.0\WebApi.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\obj\Debug\net5.0\WebApi.Entity.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\obj\Debug\net5.0\WebApi.Entity.AssemblyInfo.cs
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\obj\Debug\net5.0\WebApi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\obj\Debug\net5.0\WebApi.Entity.dll
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\obj\Debug\net5.0\ref\WebApi.Entity.dll
+C:\Users\Casper\source\repos\BSS_Proje\ProjeApiCrud\WebApi.Entity\obj\Debug\net5.0\WebApi.Entity.pdb

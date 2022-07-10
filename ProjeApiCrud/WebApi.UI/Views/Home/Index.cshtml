@@ -1,0 +1,49 @@
+﻿@model List<Product>
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h5>Product</h5>
+<hr>
+<a asp-action="SetProduct" class="btn btn-primary">New Product</a>
+@*<a asp-action="GetDeletedCategories" class="btn btn-primary">Deleted Categories</a>*@
+<hr>
+<table class="table table-sm table-dark w-100">
+    <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Description</th>
+            <th>Product Date</th>
+            <th>Category Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.ProductName</td>
+                <td>@item.ProductPrice</td>
+                <td>@item.ProductDescription</td>
+                <td>@item.ProductDateCreate</td>
+                <td>@item.Category.CategoryName</td>
+                <td>
+                    <div class="col-md-2">
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.ProductId">Edit</a>
+                    </div>
+                <div class="col-md-2">
+                    <form asp-controller="Home" asp-action="ProductDelete" method="post">
+                        <input type="hidden" name="productId" value="@item.ProductId">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
