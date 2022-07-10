@@ -4,12 +4,12 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MiniShopApp.WebUI.Models
+namespace BussApp.WebUI.Models
 {
-    public class UserDetailsModel
+    public class UserDetailModel
     {
         public string UserId { get; set; }
-        [Required(ErrorMessage ="First Name zorunludur!")]
+        [Required(ErrorMessage = "First Name zorunludur!")]
         public string FirstName { get; set; }
         [Required(ErrorMessage = "Last Name zorunludur!")]
         public string LastName { get; set; }
@@ -18,7 +18,7 @@ namespace MiniShopApp.WebUI.Models
         //İPUCU--> REGEX
         public string UserName { get; set; }
         [Required(ErrorMessage = "Email zorunludur!")]
-        [DataType(DataType.EmailAddress,ErrorMessage ="Lütfen geçerli bir email adresi giriniz!")]
+        [DataType(DataType.EmailAddress, ErrorMessage = "Lütfen geçerli bir email adresi giriniz!")]
         public string Email { get; set; }
         public bool EmailConfirmed { get; set; }
         public IEnumerable<string> SelectedRoles { get; set; }

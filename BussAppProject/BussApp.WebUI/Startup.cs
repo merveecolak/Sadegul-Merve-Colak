@@ -1,14 +1,19 @@
+using BussApp.WebUI.Identity;
 using BussAppBussines.Abstract;
 using BussAppBussines.Concrete;
 using BussAppData.Abstract;
 using BussAppData.Concrete.EfCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MiniShopApp.WebUI.EmailServices;
+using MiniShopApp.WebUI.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +33,59 @@ namespace BussApp.WebUI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-         
+
+            services.AddDbContext<ApplicationContext>(options => options.UseSqlite("Data Source=BusApp"));
+
+            services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<ApplicationContext>().AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                //Password
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequiredLength = 6;
+
+                //Lockout
+                options.Lockout.MaxFailedAccessAttempts = 3;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+
+                //User
+                options.User.RequireUniqueEmail = true;
+
+                //SignIn
+                options.SignIn.RequireConfirmedEmail = true;
+
+
+            });
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/account/login";
+                options.LogoutPath = "/account/logout";
+                options.AccessDeniedPath = "/account/accessdenied";
+                options.SlidingExpiration = true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+
+                options.Cookie = new CookieBuilder()
+                {
+                    HttpOnly = true,
+                    Name = "BusApp.Security.Cookie",
+                    SameSite = SameSiteMode.Strict
+                };
+
+            });
+
+            //Email Göndermek için.
+
+            services.AddScoped<IEmailSender, SmtpEmailSender>(i => new SmtpEmailSender(
+               Configuration["EmailSender:Host"],
+               Configuration.GetValue<int>("EmailSender:Port"),
+               Configuration.GetValue<bool>("EmailSender:EnableSSL"),
+               Configuration["EmailSender:UserName"],
+               Configuration["EmailSender:Password"]
+               ));
 
             services.AddScoped<IBusRepository, EfCoreBusRepository>();
             services.AddScoped<ICityRepository, EfCoreCityRepository>();
@@ -43,7 +100,7 @@ namespace BussApp.WebUI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -60,6 +117,8 @@ namespace BussApp.WebUI
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -68,6 +127,8 @@ namespace BussApp.WebUI
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            SeedIdentity.Seed(userManager, roleManager, Configuration).Wait();
         }
     }
 }

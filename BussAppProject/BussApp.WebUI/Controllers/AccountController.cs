@@ -1,4 +1,5 @@
 ﻿using BussApp.WebUI.Identity;
+using BussApp.WebUI.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MiniShopApp.WebUI.EmailServices;
@@ -104,111 +105,109 @@ namespace BussApp.WebUI.Controllers
             return View();
         }
 
-        //public async Task<IActionResult> ConfirmEmail(string userId, string token)
-        //{
-        //    if (userId == null || token == null)
-        //    {
-        //        TempData["Message"] =CreateMessage("", "Bir sorun oluştur", "warning");
-        //        return View();
-        //    }
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            if (userId == null || token == null)
+            {
+                ModelState.AddModelError("", "Bir sorun oluştur");
+                return View();
+            }
 
-        //    var user = await _userManager.FindByIdAsync(userId);
-        //    if (user != null)
-        //    {
-        //        var result = await _userManager.ConfirmEmailAsync(user, token);
-        //        if (result.Succeeded)
-        //        {
-        //            //Card oluşturulacak
-        //            _cardService.InitializeCard(userId);
-        //            TempData["Message"] = JobManager.CreateMessage("", "Hesabınız onaylanmıştır!", "success");
-        //        }
-        //        return View();
-        //    }
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                var result = await _userManager.ConfirmEmailAsync(user, token);
+                if (result.Succeeded)
+                {
+                    ModelState.AddModelError("", "Hesabınız onaylanmıştır!");
+                }
+                return View();
+            }
 
-        //    TempData["Message"] = JobManager.CreateMessage("", "Hesabınız onaylanamamıştır! Lütfen daha sonra yeniden deneyiniz", "danger");
-        //    return View();
-        //}
+            ModelState.AddModelError("", "Hesabınız onaylanamamıştır! Lütfen daha sonra yeniden deneyiniz");
+            return View();
+        }
 
-        //public async Task<IActionResult> Logout()
-        //{
-        //    await _signInManager.SignOutAsync();
-        //    return Redirect("~/");
-        //}
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect("~/");
+        }
 
-        //public IActionResult ForgotPassword()
-        //{
-        //    return View();
-        //}
-        //[HttpPost]
-        //public async Task<IActionResult> ForgotPassword(string email)
-        //{
-        //    if (String.IsNullOrEmpty(email))
-        //    {
-        //        TempData["Message"] = JobManager.CreateMessage("", "Lütfen email adresinizi giriniz", "warning");
-        //        return View();
-        //    }
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(string email)
+        {
+            if (String.IsNullOrEmpty(email))
+            {
+                ModelState.AddModelError("", "Lütfen email adresinizi giriniz");
+                return View();
+            }
 
-        //    var user = await _userManager.FindByEmailAsync(email);
-        //    if (user == null)
-        //    {
-        //        TempData["Message"] = JobManager.CreateMessage("", "Böyle bir email adresi bulunmadı! Lütfen kontrol ederek, tekrar deneyiniz!", "danger");
-        //        return View();
-        //    }
-        //    var code = await _userManager.GeneratePasswordResetTokenAsync(user);
-        //    var url = Url.Action("ResetPassword", "Account", new
-        //    {
-        //        userId = user.Id,
-        //        token = code
-        //    });
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Böyle bir email adresi bulunmadı! Lütfen kontrol ederek, tekrar deneyiniz!");
+                return View();
+            }
+            var code = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var url = Url.Action("ResetPassword", "Account", new
+            {
+                userId = user.Id,
+                token = code
+            });
 
-        //    await _emailSender.SendEmailAsync(
-        //        email,
-        //        "MiniShopApp Şifre Sıfırlama",
-        //        $"Lütfen parolanızı yenilemek için <a href='https://localhost:5001{url}'>tıklayınız.</a>"
-        //        );
-        //    TempData["Message"] = JobManager.CreateMessage("", "Şifre sıfırlama linki kayıtlı mail adresinize gönderilmiştir. Lütfen kontrol ediniz.", "warning");
-        //    return RedirectToAction("Login");
-        //}
+            await _emailSender.SendEmailAsync(
+                email,
+                "MiniShopApp Şifre Sıfırlama",
+                $"Lütfen parolanızı yenilemek için <a href='https://localhost:5001{url}'>tıklayınız.</a>"
+                );
+            ModelState.AddModelError("","Şifre sıfırlama linki kayıtlı mail adresinize gönderilmiştir. Lütfen kontrol ediniz.");
+            return RedirectToAction("Login");
+        }
 
-        //public IActionResult ResetPassword(string userId, string token)
-        //{
-        //    if (userId == null || token == null)
-        //    {
-        //        TempData["Message"] = JobManager.CreateMessage("", "Bir sorun oluştu.Daha sonra yeniden deneyiniz!", "danger");
-        //        return RedirectToAction("Index", "Home");
-        //    }
-        //    var model = new ResetPasswordModel()
-        //    {
-        //        Token = token
-        //    };
-        //    return View();
-        //}
-        //[HttpPost]
-        //public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return View(model);
-        //    }
-        //    var user = await _userManager.FindByEmailAsync(model.Email);
-        //    if (user == null)
-        //    {
-        //        TempData["Message"] = JobManager.CreateMessage("", "Bir sorun oluştu, lütfen bilgileri kontrol ederek yeniden deneyiniz!", "danger");
-        //        return View();
-        //    }
-        //    var result = await _userManager.ResetPasswordAsync(
-        //        user, model.Token, model.Password
-        //        );
-        //    if (result.Succeeded)
-        //    {
-        //        return RedirectToAction("Login");
-        //    }
+        public IActionResult ResetPassword(string userId, string token)
+        {
+            if (userId == null || token == null)
+            {
+                ModelState.AddModelError("", "Bir sorun oluştu.Daha sonra yeniden deneyiniz!");
+                return RedirectToAction("Index", "Home");
+            }
+            var model = new ResetPasswordModel()
+            {
+                Token = token
+            };
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Bir sorun oluştu, lütfen bilgileri kontrol ederek yeniden deneyiniz!");
+                return View();
+            }
+            var result = await _userManager.ResetPasswordAsync(
+                user, model.Token, model.Password
+                );
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Login");
+            }
 
-        //    TempData["Message"] = JobManager.CreateMessage("", "Bir sorun oluştu, lütfen admine başvurunuz.", "danger");
-        //    return Redirect("~/");
+            ModelState.AddModelError("", "Bir sorun oluştu, lütfen admine başvurunuz.");
+            return Redirect("~/");
 
 
 
-        //}
+        }
     }
 }
